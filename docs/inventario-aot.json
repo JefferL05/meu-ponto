@@ -1,0 +1,3472 @@
+{
+  "metodo": "Strings ASCII de caminhos Dart em Flutter AOT; inventário das chaves de tradução",
+  "limitacoes": [
+    "Caminhos não recuperam código-fonte ou fluxo de execução.",
+    "Textos descrevem funcionalidades; comportamento não foi executado no Android.",
+    "Não constitui descompilação completa."
+  ],
+  "binario": {
+    "sha256": "1cd93fe0e857cc2e69feb96c5c90fb59b493554ef8840a14ecf7472fc67a699b",
+    "bytes": 28443568,
+    "elf": true
+  },
+  "traducoes": {
+    "sha256": "62a1fa70a189ca1b322ba791326df58fd09da8b35dc9236de11708b9f09fb758",
+    "bytes": 113692,
+    "chaves": [
+      "about",
+      "about_shareSubtitle",
+      "about_shareTitle",
+      "about_socialNetworkSubtitle",
+      "about_socialNetworkTitle",
+      "about_supportSubtitle",
+      "about_supportTitle",
+      "about_supportVacationMessage",
+      "about_supportVacationTitle",
+      "absence",
+      "absenceDiscount",
+      "absenceDiscount_note",
+      "absenceDiscount_note_many",
+      "accent",
+      "acceptTermsAndPrivacy",
+      "account",
+      "accountCreatedOn",
+      "adBlockMessage",
+      "adBlockTitle",
+      "add",
+      "addPhoto",
+      "addPhoto_question",
+      "addingPhoto",
+      "additionalTime",
+      "additionalTime_afterLastClockOut",
+      "additionalTime_beforeFirstClockIn",
+      "additionalTime_description",
+      "additionalTime_included",
+      "additionalTime_summary",
+      "adsBlockedAcceptTerms",
+      "adsBlockedMessage",
+      "adsBlockedRemoveAds",
+      "adsBlockedRequirementStorage",
+      "adsBlockedRequirementVendor",
+      "adsBlockedRequirementsNote",
+      "adsBlockedRequirementsTitle",
+      "adsBlockedTitle",
+      "ads_1",
+      "ads_2",
+      "ads_3",
+      "ads_4",
+      "ads_blocked_message_1",
+      "ads_blocked_message_2",
+      "ads_blocked_message_3",
+      "ads_blocked_message_4",
+      "ads_blocked_message_5",
+      "ads_blocked_title",
+      "advancedSettings",
+      "affectOnlyTotal",
+      "afterAccumulatedTime",
+      "afterAccumulatedTime_subtitle",
+      "alarmChannelDescription",
+      "alarmChannelName",
+      "allDay",
+      "allMonths",
+      "allMonths_subtitle",
+      "allowBreakTimeAsWorkingHours",
+      "allowBreakTimeAsWorkingHours_subtitle",
+      "allowSeeScheduledNotifications",
+      "allowSeeScheduledNotifications_subtitle",
+      "alreadyAccount",
+      "and",
+      "andEndsAt",
+      "anonymousAccount",
+      "anonymousSignIn_existingAccountMessage",
+      "anonymousSignIn_existingAccountTitle",
+      "anticipateIn",
+      "anticipateInMoreMinutes",
+      "anticipateInOneMinute",
+      "anticipateNotification",
+      "appName",
+      "apply",
+      "applyDefaultsToHistory",
+      "applyDefaultsToHistory_allHistory",
+      "applyDefaultsToHistory_confirm",
+      "applyDefaultsToHistory_contextualQuestion",
+      "applyDefaultsToHistory_currentMonth",
+      "applyDefaultsToHistory_custom",
+      "applyDefaultsToHistory_description",
+      "applyDefaultsToHistory_endDate",
+      "applyDefaultsToHistory_lastMonths",
+      "applyDefaultsToHistory_limitedToConfigPeriod",
+      "applyDefaultsToHistory_noDays",
+      "applyDefaultsToHistory_notNow",
+      "applyDefaultsToHistory_overwriteWarning",
+      "applyDefaultsToHistory_startDate",
+      "applyDefaultsToHistory_subtitle",
+      "applyDefaultsToHistory_success",
+      "applyForAllTimes",
+      "applyOnAllWorkedTime",
+      "applyOnAllWorkedTime_subtitle",
+      "applyOnWeekdays",
+      "applyOnWeekdays_subtitle",
+      "autoBreak",
+      "autoLocation",
+      "autoLocation_subtitle",
+      "automatic",
+      "automaticChannelDescription",
+      "automaticChannelName",
+      "automaticallyRegistered",
+      "back",
+      "backup",
+      "backupInterruptWarning",
+      "backupNotFound",
+      "balance",
+      "balanceCleared",
+      "balanceSettlement",
+      "balanceSettlementAll",
+      "balanceSettlementCustom",
+      "balanceSettlementInfoAll",
+      "balanceSettlementInfoPay",
+      "balanceSettlementInfoSell",
+      "balanceSettlementNoNegativeBalance",
+      "balanceSettlementNoPositiveBalance",
+      "balanceSettlementPayDebt",
+      "balanceSettlementPayHours",
+      "balanceSettlementPayHoursClamped",
+      "balanceSettlementPayResult",
+      "balanceSettlementPayResultClamped",
+      "balanceSettlementPercentInfo",
+      "balanceSettlementPercentLabel",
+      "balanceSettlementPercentSuffix",
+      "balanceSettlementPercentWarning",
+      "balanceSettlementSellBank",
+      "balanceSettlementSellHours",
+      "balanceSettlementSellHoursClamped",
+      "balanceSettlementSellResult",
+      "balanceSettlementSellResultClamped",
+      "balanceSettlementZeroBalance",
+      "balanceSettlementZeroBalancePreview",
+      "bankDeficitTip_description",
+      "bankDeficitTip_title",
+      "bankDeficit_baseDescription",
+      "bankDeficit_baseTitle",
+      "bankDeficit_confirmTitle",
+      "bankDeficit_reducedDescription",
+      "bankDeficit_reducedTitle",
+      "bankOvertimeMaxTime",
+      "bankOvertimeMaxTime_subtitle",
+      "bankOvertimeProportional1to1",
+      "bankOvertimeProportional1to1_subtitle",
+      "bankOvertime_bankAllDescription",
+      "bankOvertime_bankAllTitle",
+      "batchStatement_canceled",
+      "batchStatement_failuresMessage",
+      "batchStatement_failuresTitle",
+      "batchStatement_generate",
+      "batchStatement_maxPeriod",
+      "batchStatement_progress",
+      "batchStatement_saveToDevice",
+      "batchStatement_saved",
+      "batchStatement_selectAll",
+      "batchStatement_selectEmployees",
+      "batchStatement_selected",
+      "batchStatement_title",
+      "bingo",
+      "bingo_description",
+      "bonusDetail_bank1to1Description",
+      "bonusDetail_description",
+      "bonusDetail_fictaDescription",
+      "bonusDetail_rounding",
+      "bonusDetail_roundingDescription",
+      "bonusDetails",
+      "breakCount_many",
+      "breakRule",
+      "breakRule_afterWorked",
+      "breakRule_afterWorked_subtitle",
+      "breakRule_deduct",
+      "breakRule_deduct_subtitle",
+      "breakRule_deleteConfirmation",
+      "breakRule_deleteQuestion",
+      "breakRule_deleteWarning",
+      "breakRule_disable",
+      "breakRule_nameHint",
+      "breakRule_summary",
+      "breakRules",
+      "breakRules_empty",
+      "breakRules_explanation",
+      "breakTime",
+      "breakTimeOf",
+      "breakTimeStartsAt",
+      "camera",
+      "cameraPermissionMessage",
+      "cameraPermissionTitle",
+      "cancel",
+      "cancelLogin",
+      "canceling",
+      "changePrivacyPreferences",
+      "chart",
+      "chartEmptyData",
+      "chartInsufficientData",
+      "chooseDate",
+      "chooseJob",
+      "cleanCopyCut",
+      "cleanSelection",
+      "clearTotalBalance",
+      "clockInNow",
+      "clockInNowChannelDescription",
+      "clockInNowChannelName",
+      "clockInOutRegister",
+      "clockInOutRegister_inconsistenciesQuestion",
+      "clockInOutRegister_inconsistencyQuestion",
+      "clockInRegistered",
+      "clockOutRegistered",
+      "clockSync",
+      "clockSync_ahead",
+      "clockSync_behind",
+      "clockSync_description",
+      "clockSync_equals",
+      "clockSync_reset",
+      "close",
+      "cltDivisor150",
+      "cltDivisor180",
+      "cltDivisor200",
+      "cltDivisor220",
+      "cltMonthlySalary",
+      "cltSalary",
+      "cltSalary_info",
+      "cltWeeklyHoursDivisor",
+      "color",
+      "company",
+      "companyChannelDescription",
+      "companyChannelName",
+      "company_accountRequired_message",
+      "company_accountRequired_title",
+      "company_alreadyMemberNotice",
+      "company_approveConfirmQuestion",
+      "company_approveMember",
+      "company_auditAdded",
+      "company_auditAfter",
+      "company_auditBefore",
+      "company_auditByApproval",
+      "company_auditByManager",
+      "company_auditDeleted",
+      "company_auditEdited",
+      "company_auditEmpty",
+      "company_auditTitle",
+      "company_awaitingApproval",
+      "company_awaitingApprovalBanner",
+      "company_clockAudit",
+      "company_clockAuditClaimed",
+      "company_clockAuditEmpty",
+      "company_clockAuditEmptyFilter",
+      "company_clockAuditLocationEmpty",
+      "company_clockAuditLocationSubtitle",
+      "company_clockAuditOffline",
+      "company_clockAuditOfflineEmpty",
+      "company_clockAuditOfflineInfo",
+      "company_clockAuditOfflineSubtitle",
+      "company_clockAuditResolve",
+      "company_clockAuditResolved",
+      "company_clockAuditServer",
+      "company_clockAuditSubtitle",
+      "company_clockAuditTabLocation",
+      "company_clockAuditTabSuspicious",
+      "company_clockAuditViewOnMap",
+      "company_codeCopied",
+      "company_codeHint",
+      "company_companyFound",
+      "company_companyName",
+      "company_companyNameHint",
+      "company_confirmJoin",
+      "company_copyEmail",
+      "company_createCompany",
+      "company_createYourOwnCompany",
+      "company_demoteToEmployee",
+      "company_discoverCompanyMode",
+      "company_downgradeBlockedBody",
+      "company_downgradeBlockedTitle",
+      "company_employeeCountPlural",
+      "company_employeeCountSingular",
+      "company_employeeName",
+      "company_employeeNameRequired",
+      "company_error_accountRequired",
+      "company_error_alreadyMember",
+      "company_error_alreadyOwner",
+      "company_error_billingRequired",
+      "company_error_cannotRemoveOwner",
+      "company_error_cannotSelfApprove",
+      "company_error_cannotSelfManage",
+      "company_error_cannotSelfManageTitle",
+      "company_error_companyNotFound",
+      "company_error_invalidCode",
+      "company_error_invalidRecord",
+      "company_error_joinFailed",
+      "company_error_joinRequestGone",
+      "company_error_lookupFailed",
+      "company_error_memberLimitReached",
+      "company_error_memberRemoved",
+      "company_error_memberRemovedRejoin",
+      "company_error_noActiveCompany",
+      "company_error_notManager",
+      "company_error_recordNotFound",
+      "company_error_requestResolved",
+      "company_error_unauthenticated",
+      "company_filterAllEmployees",
+      "company_filterClear",
+      "company_filterEmployeesTitle",
+      "company_freezeSoon_billingIssue",
+      "company_freezeSoon_expired",
+      "company_freezeSoon_notRenewing",
+      "company_freeze_employeeBanner",
+      "company_freeze_employeeToast",
+      "company_freeze_managerBanner",
+      "company_freeze_managerToast",
+      "company_generateCode",
+      "company_guide",
+      "company_guideSubtitle",
+      "company_inviteActive",
+      "company_inviteCode",
+      "company_inviteDisabled",
+      "company_jobName",
+      "company_job_readonlyBanner",
+      "company_joinRejectedMessage",
+      "company_joinRejectedMessageWithComment",
+      "company_joinRejectedTitle",
+      "company_joinRequestSentMessage",
+      "company_manageSubscription",
+      "company_manageYourCompany",
+      "company_managerCountPlural",
+      "company_managerCountSingular",
+      "company_memberRemoved",
+      "company_memberRemovedOn",
+      "company_memberSetupAction",
+      "company_memberSetupMessage",
+      "company_memberSetupPending",
+      "company_memberSetupTitle",
+      "company_members",
+      "company_membersCount",
+      "company_membersScheduleShortcut",
+      "company_membersScheduleShortcutSubtitle",
+      "company_noAds_subtitle",
+      "company_noAds_title",
+      "company_noCode",
+      "company_noMembers",
+      "company_notRegistered",
+      "company_overLimit_banner",
+      "company_overLimit_readonlyBanner",
+      "company_ownerJobBanner",
+      "company_ownerJobBannerWithDate",
+      "company_ownerJobToast",
+      "company_pendingApproval",
+      "company_pendingApproval_requestTitle",
+      "company_pendingToast",
+      "company_presence_left",
+      "company_presence_none",
+      "company_presence_working",
+      "company_presence_yesterday",
+      "company_preview_earlyAccessSubtitle",
+      "company_preview_notice",
+      "company_preview_noticeWithRequest",
+      "company_preview_priceDisclaimer",
+      "company_preview_soon",
+      "company_promo_badge",
+      "company_promo_earlyAccessNotice",
+      "company_promo_feature1",
+      "company_promo_feature2",
+      "company_promo_feature3",
+      "company_promo_legalNote",
+      "company_promo_requestAccess",
+      "company_promo_subtitle",
+      "company_promo_title",
+      "company_promoteToManager",
+      "company_readmitMember",
+      "company_readmitMemberQuestion",
+      "company_regenerateCode",
+      "company_regenerateCodeQuestion",
+      "company_rejectMember",
+      "company_rejectReasonHint",
+      "company_rejectReasonTitle",
+      "company_rejectionComment",
+      "company_rejectionCommentHint",
+      "company_removeMember",
+      "company_removeMemberQuestion",
+      "company_renameCompany",
+      "company_requestApprove",
+      "company_requestApprovedMessage",
+      "company_requestCancel",
+      "company_requestCancelConfirm",
+      "company_requestCancelledMessage",
+      "company_requestCreated",
+      "company_requestDeleteQuestion",
+      "company_requestPartialMessage",
+      "company_requestPartialTitle",
+      "company_requestReason",
+      "company_requestReasonHint",
+      "company_requestReasonInfo",
+      "company_requestReasonSend",
+      "company_requestReasonTitle",
+      "company_requestReasonTooShort",
+      "company_requestReason_duplicate",
+      "company_requestReason_externalWork",
+      "company_requestReason_forgot",
+      "company_requestReason_lateRegister",
+      "company_requestReason_mistake",
+      "company_requestReason_phoneIssue",
+      "company_requestReason_wrongTime",
+      "company_requestReject",
+      "company_requestRejectedMessage",
+      "company_requestSendInfo",
+      "company_request_alreadySent",
+      "company_request_devNote",
+      "company_request_manyMembersInfo",
+      "company_request_membersLabel",
+      "company_request_needsConnection",
+      "company_request_pendingCard",
+      "company_request_rejectedCard",
+      "company_request_submitted",
+      "company_request_usageHint",
+      "company_request_usageLabel",
+      "company_requests",
+      "company_requestsEmpty",
+      "company_requestsEmptyFilter",
+      "company_requestsHiddenPlural",
+      "company_requestsHiddenSingular",
+      "company_requestsNotifications",
+      "company_requestsNotificationsInfo",
+      "company_roleEmployee",
+      "company_roleManager",
+      "company_roleOwner",
+      "company_settingsClipboard_copiedGeneral",
+      "company_settingsClipboard_copiedGeofence",
+      "company_settingsClipboard_copiedWork",
+      "company_settingsClipboard_copy",
+      "company_settingsClipboard_paste",
+      "company_settingsClipboard_pasteGeneralMessage",
+      "company_settingsClipboard_pasteGeneralTitle",
+      "company_settingsClipboard_pasteGeofenceMessage",
+      "company_settingsClipboard_pasteGeofenceTitle",
+      "company_settingsClipboard_pasteWorkMessage",
+      "company_settingsClipboard_pasteWorkTitle",
+      "company_settingsClipboard_pasted",
+      "company_shareInviteLink",
+      "company_shareInviteLinkDisabled",
+      "company_shareInviteLinkMessage",
+      "company_shareInviteLinkSubtitle",
+      "company_subscription",
+      "company_subscriptionDetails",
+      "company_terminateMember",
+      "company_terminatedBanner",
+      "company_terminatedBannerWithDate",
+      "company_terminatedToast",
+      "company_tier_upTo",
+      "company_trial_request",
+      "company_trial_subtitle",
+      "company_trial_title",
+      "company_viewPlans",
+      "company_viewingAs",
+      "company_waitingManagerSchedule",
+      "company_welcome_afterBody",
+      "company_welcome_afterTitle",
+      "company_welcome_betaBody",
+      "company_welcome_betaTitle",
+      "company_welcome_dialogBody",
+      "company_welcome_feedbackBody",
+      "company_welcome_feedbackButton",
+      "company_welcome_feedbackTitle",
+      "company_welcome_inviteBody",
+      "company_welcome_inviteShare",
+      "company_welcome_inviteTitle",
+      "company_welcome_legalBody",
+      "company_welcome_legalTerms",
+      "company_welcome_legalTitle",
+      "company_welcome_open",
+      "company_welcome_periodBody",
+      "company_welcome_periodTitle",
+      "company_welcome_title",
+      "confirm",
+      "confirmYourEmailIsCorrect",
+      "conflictException_alreadyHasClock",
+      "conflictException_alreadyHasClockAtSameTime",
+      "conflictException_alreadyHasExternalWork",
+      "conflictException_alreadyHasHolidayDuringAllDay",
+      "conflictException_alreadyHasJustifiedAbsenceDuringAllDay",
+      "conflictException_alreadyHasOnCallAtSameTime",
+      "conflictException_alreadyHasOneBalanceSettlementAtDay",
+      "conflictException_alreadyHasOneExtraWithSameValues",
+      "conflictException_alreadyHasOneHolidayWithSameValues",
+      "conflictException_alreadyHasOneJustifiedAbsenceWithSameValues",
+      "conflictException_alreadyHasOneOffWorkAtDay",
+      "conflictException_alreadyHasOneResetTotalBalanceAtDay",
+      "conflictException_alreadyHasOneUnjustifiedAbsenceWithSameValues",
+      "conflictException_alreadyHasOneVacationAtDay",
+      "conflictException_alreadyHasPartialHoliday",
+      "conflictException_alreadyHasPartialJustifiedAbsence",
+      "conflictException_alreadyHasPartialUnjustifiedAbsence",
+      "conflictException_alreadyHasPercentage",
+      "conflictException_alreadyHasUnjustifiedAbsenceDuringAllDay",
+      "conflictException_alreadyHasWorkload",
+      "conflictException_configurationStartingOnSameDate",
+      "conflictException_conflicting",
+      "conflictException_conflictingWithAnotherExternalWork",
+      "conflictException_negative",
+      "conflictException_workload24Hours",
+      "conflictException_youAreOnOffWork",
+      "conflictException_youAreOnVacation",
+      "connect",
+      "connected",
+      "connectionFail",
+      "consent_guide",
+      "consent_guideSubtitle",
+      "considerAsInconsistency",
+      "considerAsWorkingHours",
+      "continue",
+      "continueAnyway",
+      "continueWithoutReplicate",
+      "coolIWantToSupport",
+      "copiedToClipboard",
+      "copy",
+      "create",
+      "createNewSetOfSettings",
+      "currentMonth",
+      "currentPlan",
+      "custom",
+      "cut",
+      "dailyToleranceLimit",
+      "dailyToleranceLimit_description",
+      "dailyWorkloadOf",
+      "dark",
+      "date",
+      "day",
+      "dayBalance",
+      "dayBalanceTwoLines",
+      "dayBalance_appliedToDays",
+      "dayBalance_appliedToOneDay",
+      "dayBalance_managerOnly",
+      "dayBalance_negativeSection",
+      "dayBalance_positiveSection",
+      "dayBreakFull",
+      "dayBreakTwoLines",
+      "dayConfig_chooseOption",
+      "dayOfWeek_1",
+      "dayOfWeek_2",
+      "dayOfWeek_3",
+      "dayOfWeek_4",
+      "dayOfWeek_5",
+      "dayOfWeek_6",
+      "dayOfWeek_7",
+      "dayTip_changeDefault",
+      "dayWorked",
+      "dayWorkedFull",
+      "dayWorkedTwoLines",
+      "day_deleteMultipleQuestion",
+      "day_deleteQuestion",
+      "days",
+      "deductFromBalance",
+      "deductingFromBalance",
+      "default",
+      "defaultBankDeficit",
+      "defaultPayOvertime",
+      "defaultTag",
+      "defaultTag_subtitle",
+      "delete",
+      "deleteAccount",
+      "deleteAccount_confirm",
+      "deleteAccount_message",
+      "deleteAccount_warning",
+      "deleteJob",
+      "deleteRule",
+      "deleteSchedule",
+      "deleteTag",
+      "details",
+      "developedBy",
+      "differentWorkload",
+      "disableJob",
+      "disableJob_confirm",
+      "disableJob_confirmMessage",
+      "disableJob_subtitle",
+      "disableLocationField",
+      "disableLocationField_subtitle",
+      "disableNsrField",
+      "disableNsrField_subtitle",
+      "disableRule",
+      "disableSchedule",
+      "disableSchedule_subtitle",
+      "disableTag",
+      "disableTag_subtitle",
+      "discardWithoutNameQuestion",
+      "disconnect",
+      "discountOnFirstClockIn",
+      "discountOnFirstClockIn_description",
+      "doNotHaveAnAccount",
+      "doYouWantToClearTotalBalance",
+      "dontReplicate",
+      "download",
+      "downloadSuccessfully",
+      "downloadWhenQuestion",
+      "downloadWhereQuestion",
+      "downloadingPhoto",
+      "dsr",
+      "duration",
+      "durationOf",
+      "durationPartial",
+      "edit",
+      "editOrDelete",
+      "editOrDeleteMessage",
+      "email",
+      "emailAppNotFound",
+      "emailConfirmation",
+      "emailSupport",
+      "emailVerification",
+      "emailVerificationMissing",
+      "emailVerificationSent",
+      "employee",
+      "employer",
+      "endTime",
+      "error",
+      "errorMessage",
+      "estimatedBreakTimeEnd",
+      "estimatedBreakTimeStart",
+      "estimatedLeavingTime",
+      "estimatedStartingTime",
+      "everyDayOfWeek",
+      "exportingZip",
+      "externalMemory",
+      "externalWork",
+      "extra",
+      "extraHours",
+      "extraPercentageToBeApplied",
+      "featureForSubscribersOnly",
+      "fictaHour",
+      "fictaHour_asOvertime",
+      "fictaHour_description",
+      "fictaHour_disabled",
+      "fictaHour_summary",
+      "fictaOvertime",
+      "fictaOvertime_subtitle",
+      "fileName",
+      "fileType",
+      "file_deleteMultipleQuestion",
+      "file_deleteQuestion",
+      "filter",
+      "finish",
+      "firebaseAuthException_credentialAlreadyInUse",
+      "firebaseAuthException_emailAlreadyInUse",
+      "firebaseAuthException_networkRequestFailed",
+      "firebaseAuthException_userDisabled",
+      "firebaseAuthException_userInvalid",
+      "firebaseAuthException_userMismatch",
+      "firebaseAuthException_userNotFound",
+      "firebaseAuthException_wrongPassword",
+      "firstClockIn",
+      "firstDayOfMonth",
+      "firstDayOfWeek",
+      "fixedBreakTime",
+      "fixedBreakTime_description",
+      "for",
+      "forgot",
+      "friday",
+      "from",
+      "fromTheBeginning",
+      "fromTo",
+      "fullAbsenceAffectsBank",
+      "fullAbsenceAffectsBank_subtitle",
+      "gallery",
+      "general",
+      "generate",
+      "generateStatement",
+      "generatedBy",
+      "generatingStatement",
+      "generatingZip",
+      "geofence",
+      "geofence_areaFallback",
+      "geofence_areaLabel",
+      "geofence_blockedAttempt",
+      "geofence_blockedDenied",
+      "geofence_blockedMocked",
+      "geofence_blockedNoGps",
+      "geofence_blockedOutOfRadius",
+      "geofence_blockedTitle",
+      "geofence_delete",
+      "geofence_deleteQuestion",
+      "geofence_disableArea",
+      "geofence_disableArea_subtitle",
+      "geofence_distance",
+      "geofence_empty",
+      "geofence_mode",
+      "geofence_mode_block",
+      "geofence_mode_block_description",
+      "geofence_mode_confirmTitle",
+      "geofence_mode_flag",
+      "geofence_mode_flag_description",
+      "geofence_newArea",
+      "geofence_radiusMeters",
+      "geofence_reason_denied",
+      "geofence_reason_mocked",
+      "geofence_reason_noGps",
+      "geofence_reason_outOfRadius",
+      "geofence_recordInArea",
+      "geofence_recordInAreaGeneric",
+      "geofence_subtitle",
+      "gettingLocation",
+      "greatLetMeSeeTheOptions",
+      "grid",
+      "guides",
+      "guides_subtitle",
+      "header",
+      "help",
+      "hiddenBalanceReplacement",
+      "hideAdvancedSettings",
+      "hideDaysWithoutRecords",
+      "hideMonetaryValues",
+      "hideNotes",
+      "hideTotalBalance",
+      "hideTotalBalance_subtitle",
+      "high",
+      "holiday",
+      "homeScreen",
+      "homeScreen_applyNote",
+      "hour",
+      "hourlyRate",
+      "hourlyRate_warning",
+      "hours",
+      "howManyHoursMustBeJustified",
+      "ignore",
+      "ignoreInconsistencies",
+      "ignoreInconsistencies_question",
+      "ignoreInconsistency",
+      "ignoreInconsistency_question",
+      "implausibleBreakTimeAlert",
+      "implausibleSpan_breakTime",
+      "implausibleSpan_ofNextDayHint",
+      "implausibleSpan_registerAnyway",
+      "implausibleSpan_useSameDay",
+      "implausibleSpan_workShift",
+      "implausibleWorkShiftAlert",
+      "importingRecords",
+      "includedInWork",
+      "inconsistencies",
+      "inconsistencies_empty",
+      "initialWizard_firstJobTitle",
+      "initialWizard_firstJob_bullet1",
+      "initialWizard_firstJob_bullet2",
+      "initialWizard_firstJob_bullet3",
+      "initialWizard_firstJob_cancelQuestion",
+      "initialWizard_intent_decideLater",
+      "initialWizard_intent_job_subtitle",
+      "initialWizard_intent_job_title",
+      "initialWizard_intent_join_subtitle",
+      "initialWizard_intent_join_title",
+      "initialWizard_intent_manage_subtitle",
+      "initialWizard_intent_manage_title",
+      "initialWizard_intent_title",
+      "initialWizard_slide1_subtitle",
+      "initialWizard_slide1_title",
+      "initialWizard_slide2_subtitle",
+      "initialWizard_slide2_title",
+      "initialWizard_slide3_subtitle",
+      "initialWizard_slide3_title",
+      "initialWizard_slide4_subtitle",
+      "initialWizard_slide4_title",
+      "initialWizard_slide5_subtitle",
+      "initialWizard_slide5_title",
+      "initialWizard_welcomeTitle",
+      "internalMemory",
+      "intervalSuggestion_message",
+      "intervalSuggestion_title",
+      "isNotClockInRecord",
+      "isNotClockOutRecord",
+      "job",
+      "jobConfig_shiftCycle",
+      "jobConfig_shiftCycle_remove",
+      "jobEndsAt",
+      "jobStartsAt",
+      "job_deleteConfirmation",
+      "job_deleteQuestion",
+      "job_deleteWarning",
+      "job_guide",
+      "job_guideSubtitle",
+      "job_nameHint",
+      "job_nameQuestion",
+      "jobs",
+      "jobs_addPersonal",
+      "jobs_addPersonalSubtitle",
+      "jobs_addPersonalSubtitleCompanyAdmin",
+      "jobs_allDisabled",
+      "jobs_allDisabled_description",
+      "jobs_companyAdminHint",
+      "jobs_companyAdminHintNoCompany",
+      "jobs_companyAdmin_description",
+      "jobs_companyAdmin_descriptionNoCompany",
+      "jobs_companyAdmin_title",
+      "jobs_companyAdmin_titleNoCompany",
+      "jobs_empty",
+      "jobs_empty_description",
+      "jobs_empty_homeScreenAction",
+      "jobs_empty_homeScreenTip",
+      "jobs_empty_managerDescription",
+      "jobs_empty_openCompany",
+      "jobs_joinCompanySubtitle",
+      "jobs_loadFailed",
+      "jobs_loadFailed_retry",
+      "jobs_shortDescription",
+      "justOneDay",
+      "justifiedAbsence",
+      "kiosk_add",
+      "kiosk_cameraPermissionNeeded",
+      "kiosk_clockChannel",
+      "kiosk_clockChannel_any",
+      "kiosk_clockChannel_any_description",
+      "kiosk_clockChannel_kiosk",
+      "kiosk_clockChannel_kiosk_description",
+      "kiosk_clockChannel_phone",
+      "kiosk_clockChannel_phone_description",
+      "kiosk_codeExpired",
+      "kiosk_codeExpiresIn",
+      "kiosk_codeInstructions",
+      "kiosk_codeOrType",
+      "kiosk_codeTitle",
+      "kiosk_confirmIn",
+      "kiosk_confirmOut",
+      "kiosk_connected",
+      "kiosk_createPinInApp",
+      "kiosk_createPinWarning",
+      "kiosk_disablePhoto",
+      "kiosk_duplicateConfirm",
+      "kiosk_duplicateQuestion",
+      "kiosk_enablePhoto",
+      "kiosk_enterPin",
+      "kiosk_error_accountInUse",
+      "kiosk_error_alreadyPaired",
+      "kiosk_error_camera",
+      "kiosk_error_cameraPermission",
+      "kiosk_error_companyUnavailable",
+      "kiosk_error_expiredCode",
+      "kiosk_error_generic",
+      "kiosk_error_invalidCode",
+      "kiosk_error_limitReached",
+      "kiosk_error_offline",
+      "kiosk_error_punchOffline",
+      "kiosk_error_revoked",
+      "kiosk_error_timeout",
+      "kiosk_guide",
+      "kiosk_guideSubtitle",
+      "kiosk_hidePresence",
+      "kiosk_lastSeen",
+      "kiosk_listEmpty",
+      "kiosk_listExplanation",
+      "kiosk_listTitle",
+      "kiosk_lookAtCamera",
+      "kiosk_myPin",
+      "kiosk_myPinSubtitle",
+      "kiosk_nameHint",
+      "kiosk_nameTitle",
+      "kiosk_needsUpdate",
+      "kiosk_neverSeen",
+      "kiosk_offline",
+      "kiosk_offlineTooLong",
+      "kiosk_onlyKioskToast",
+      "kiosk_pairingCameraError",
+      "kiosk_pairingConfirm",
+      "kiosk_pairingExplanation",
+      "kiosk_pairingScanCode",
+      "kiosk_pairingScanHint",
+      "kiosk_pairingTitle",
+      "kiosk_pairingTypeCode",
+      "kiosk_photoExpired",
+      "kiosk_photoNotTaken",
+      "kiosk_photoNotice",
+      "kiosk_pinConfirm",
+      "kiosk_pinExplanation",
+      "kiosk_pinFormat",
+      "kiosk_pinLocked",
+      "kiosk_pinMismatch",
+      "kiosk_pinNew",
+      "kiosk_pinSaved",
+      "kiosk_pinWrong",
+      "kiosk_rename",
+      "kiosk_requestFromKiosk",
+      "kiosk_revoke",
+      "kiosk_revokeMessage",
+      "kiosk_revokeTitle",
+      "kiosk_revokedAt",
+      "kiosk_revokedGroup",
+      "kiosk_revokedToast",
+      "kiosk_search",
+      "kiosk_shortcutSubtitle",
+      "kiosk_showPresence",
+      "kiosk_todayRecords",
+      "kiosk_unavailable",
+      "kiosk_updateRequiredMessage",
+      "kiosk_useAsKiosk",
+      "landscape",
+      "language",
+      "lastClockOut",
+      "laterIn",
+      "laterInMoreMinutes",
+      "laterInOneMinute",
+      "laterNotification",
+      "legalConsent_accept",
+      "legalConsent_exit",
+      "legalConsent_message",
+      "legalConsent_readPrivacy",
+      "legalConsent_readTerms",
+      "legalConsent_title",
+      "legalConsent_updatedAt",
+      "letsGo",
+      "light",
+      "list",
+      "listingPhotos",
+      "loadMore",
+      "loading",
+      "location",
+      "locationAddress",
+      "locationDenied",
+      "locationDisabled",
+      "locationError",
+      "locationFineDenied",
+      "locationLatLong",
+      "locationLink",
+      "locationMocked",
+      "locationTimeout",
+      "location_beforeAfterSame",
+      "location_distanceBetween",
+      "location_none",
+      "location_removeQuestion",
+      "location_updateQuestion",
+      "login",
+      "loginAgain",
+      "loginProblem_buttonClearData",
+      "loginProblem_buttonSignOut",
+      "loginProblem_message",
+      "loginProblem_title",
+      "loginTagline",
+      "loginWarning",
+      "low",
+      "managerYourSubscriptions",
+      "mapLiteAutoEnabled_message",
+      "mapLiteAutoEnabled_title",
+      "mapLiteMode",
+      "mapLiteMode_subtitle",
+      "max",
+      "maximumWorkShift",
+      "maximumWorkShiftExceeded",
+      "maximumWorkShiftExceededAnticipate",
+      "maximumWorkShiftExceeded_subtitle",
+      "maximumWorkload",
+      "maximumWorkloadExceeded",
+      "maximumWorkloadExceededAnticipate",
+      "maximumWorkloadExceeded_subtitle",
+      "medium",
+      "menu",
+      "menu_company",
+      "menu_joinCompany",
+      "menu_sectionMore",
+      "menu_sectionTools",
+      "menu_sectionViews",
+      "message",
+      "migrateMessage",
+      "migrateTitle",
+      "migratingRecords",
+      "min",
+      "minimumBreakTimeDuration",
+      "minimumDurationOf",
+      "minimumRestBetweenWorkday",
+      "minimumRestBetweenWorkdayAlert",
+      "minute",
+      "minutes",
+      "missingAtLeastOneWorkShift",
+      "missingClockOut",
+      "missingRecordsAlert",
+      "monday",
+      "month",
+      "monthBalance",
+      "monthBalanceTwoLines",
+      "monthWorked",
+      "monthWorkedFull",
+      "monthWorkedTwoLines",
+      "month_deleteMultipleQuestion",
+      "month_deleteQuestion",
+      "monthlyGoal",
+      "monthlyGoalAchieved",
+      "monthlyGoalAchievedAnticipate",
+      "monthlyGoalAchieved_details",
+      "monthlyGoalAchieved_subtitle",
+      "monthlySubscription",
+      "monthlySubscriptionDetails",
+      "multipleItemsSelected",
+      "multipleSchedules",
+      "myJobs",
+      "name",
+      "needCloudConnection",
+      "negativeHours",
+      "negativeHours_note",
+      "new",
+      "newSchedule",
+      "newSchedule_description",
+      "newSettings",
+      "newSettingsOvertime",
+      "newSettingsOvertime_description",
+      "newTag",
+      "nfc",
+      "nfcChannelDescription",
+      "nfcChannelName",
+      "nfcLearnMoreAboutNfc",
+      "nfcNotAvailable",
+      "nfcNotAvailableDescription",
+      "nfcStepByStepDescription_footer",
+      "nfcStepByStepDescription_intro",
+      "nfcStepByStepDescription_stepFour",
+      "nfcStepByStepDescription_stepOne",
+      "nfcStepByStepDescription_stepThree",
+      "nfcStepByStepDescription_stepTwo",
+      "nightShiftCascade",
+      "nightShiftCascade_subtitle",
+      "nightShiftDifferential",
+      "nightShiftDifferential_description",
+      "nightShiftDifferential_disabled",
+      "nightShiftDifferential_overOvertime",
+      "nightShiftDifferential_summary",
+      "no",
+      "noAppToOpenExcelFile",
+      "noAtLeastOneDifferent",
+      "noAtLeastOneDifferent_description",
+      "noDoLater",
+      "noIWillFixIt",
+      "noLocation",
+      "noMoreBreakTime",
+      "noRounding",
+      "noWithoutBreakTime",
+      "normalHours",
+      "notAnticipate",
+      "notConfigured",
+      "notConnected",
+      "notConsiderAsInconsistency",
+      "notLater",
+      "notNow",
+      "notNowMaybeLater",
+      "notes",
+      "notesSeparated",
+      "notesSideBySide",
+      "notesTogether",
+      "notificationBypassDnD",
+      "notificationBypassDnD_subtitle",
+      "notificationInsistent",
+      "notificationInsistent_subtitle",
+      "notificationSound",
+      "notificationSoundOreoOrAbove",
+      "notifications",
+      "now",
+      "nsr",
+      "ofNextDay",
+      "offWork",
+      "ok",
+      "okGotIt",
+      "okLetsCreateAnAccount",
+      "onCall",
+      "onCallPercent",
+      "onTheBalance",
+      "oneItemSelected",
+      "oneMinuteAgo",
+      "oneMinuteFromNow",
+      "onlyAfterTimeOfDay",
+      "onlyBeforeTimeOfDay",
+      "onlyOnHolidays",
+      "onlyOnOffWorks",
+      "onlyOneMonth",
+      "onlyTimeRange_afterHint",
+      "onlyTimeRange_beforeHint",
+      "onlyTimeRange_intervalHint",
+      "onlyTimeRange_wrapHint",
+      "onlyTotal",
+      "onlyWorkload",
+      "onlyWorkload_description",
+      "onlyWorkload_noNotifications",
+      "onlyWorkload_question",
+      "openAppToAcceptPendingTerms",
+      "openSettings",
+      "orientation",
+      "original",
+      "other",
+      "otherApps",
+      "overlappingDaysAlert",
+      "overlappingDays_nextDay",
+      "overlappingDays_previousDay",
+      "overtimeRule",
+      "overtimeRule_afterAccumulated",
+      "overtimeRule_afterTime",
+      "overtimeRule_allDays",
+      "overtimeRule_allWorkedTime",
+      "overtimeRule_bank1to1",
+      "overtimeRule_bankMax",
+      "overtimeRule_beforeTime",
+      "overtimeRule_deleteConfirmation",
+      "overtimeRule_deleteQuestion",
+      "overtimeRule_deleteWarning",
+      "overtimeRule_nameHint",
+      "overtimeRule_weekdaysAndSpecialFilter_confirm",
+      "overtimeRule_weekdaysAndSpecialFilter_dismiss",
+      "overtimeRule_weekdaysAndSpecialFilter_message",
+      "overtimeRule_weekdaysAndSpecialFilter_title",
+      "overtimeRules",
+      "overtimeRules_empty",
+      "overtimeRules_priorityHint",
+      "partial",
+      "password",
+      "passwordConfirmation",
+      "paste",
+      "payOvertimeTip_description",
+      "payOvertimeTip_title",
+      "payOvertime_confirmTitle",
+      "payOvertime_overtimeDescription",
+      "payOvertime_overtimeDescriptionWithLimits",
+      "payOvertime_overtimeTitle",
+      "payOvertime_paymentDescription",
+      "payOvertime_paymentTitle",
+      "percentage",
+      "percentageLegacyWarning",
+      "periodBalance",
+      "periodBalanceTwoLines",
+      "periodWorked",
+      "periodWorkedFull",
+      "periodWorkedTwoLines",
+      "photo",
+      "photo_deleteMultipleQuestion",
+      "photo_deleteQuestion",
+      "photos",
+      "photosBackup",
+      "photosBackup_longDescription",
+      "photosNotFound",
+      "photosRepeated",
+      "photosTips",
+      "photos_empty",
+      "portrait",
+      "positiveMonthBalance",
+      "positiveMonthBalanceAnticipate",
+      "positiveMonthBalance_subtitle",
+      "positiveTotalBalance",
+      "positiveTotalBalanceAnticipate",
+      "positiveTotalBalance_subtitle",
+      "previousMonth",
+      "primary",
+      "privacyPolicy",
+      "quality",
+      "questionsOrIssues_footer",
+      "rate",
+      "readOnly",
+      "readOnlyUser",
+      "readOnlyUser_resetQuestion",
+      "readOnly_question",
+      "readOnly_warning",
+      "reauthenticationApple",
+      "reauthenticationApple_message",
+      "reauthenticationGoogle",
+      "reauthenticationGoogle_message",
+      "reauthenticationPassword",
+      "recordNotSavedRelogin",
+      "recordNotSavedTryAgain",
+      "record_deleteMultipleQuestion",
+      "record_deleteQuestion",
+      "records",
+      "records_empty",
+      "redefinePassword",
+      "redefinePasswordSent",
+      "reducedMargins",
+      "register",
+      "registerAutomatically",
+      "registerAutomatically_description",
+      "reminderChannelDescription",
+      "reminderChannelName",
+      "remove",
+      "removeAds",
+      "removeAds_bestValue",
+      "removeAds_companyCoverageBody",
+      "removeAds_companyCoverageTitle",
+      "removeAds_footer",
+      "removeAds_invite",
+      "removeAds_paymentsTitle",
+      "removeBreakTime",
+      "rename",
+      "replicate",
+      "replicateAndContinue",
+      "replicateConfigs",
+      "replicateSuggestion_subtitle",
+      "requestConfirmation",
+      "requestConfirmation_subtitle",
+      "requestPhotoImmediately",
+      "requestPhotoImmediately_subtitle",
+      "resendEmail",
+      "resetBalanceEveryBeginningOfMonth",
+      "resetBalanceEveryBeginningOfMonth_subtitle",
+      "resetBalanceEveryBeginningOfWeek",
+      "resetBalanceEveryBeginningOfWeek_subtitle",
+      "resolution",
+      "restartApp",
+      "restorePurchases",
+      "result",
+      "roundingDirection",
+      "roundingDown",
+      "roundingExample",
+      "roundingMinutes",
+      "roundingMinutes_description",
+      "roundingNearest",
+      "roundingUp",
+      "salaryModeFixed",
+      "salaryModeFixed_info",
+      "saturday",
+      "save",
+      "savingRecoveredPhoto",
+      "schedule_deleteConfirmation",
+      "schedule_deleteQuestion",
+      "schedule_deleteWarning",
+      "scheduledNotifications",
+      "search",
+      "search_empty",
+      "search_notFound",
+      "search_oneRecordFound",
+      "search_recordsFound",
+      "second",
+      "seconds",
+      "seeDay",
+      "selectAll",
+      "selectColor",
+      "selectColorShade",
+      "selectDays",
+      "selectDays_withNegativeBalance",
+      "selectDays_withPositiveBalance",
+      "selectedColorAndItsShades",
+      "sessionExpired",
+      "sessionExpired_restartAppMessage",
+      "sessionExpired_signOutMessage",
+      "setAsReadOnly",
+      "setPeriod",
+      "settings",
+      "settingsDefault",
+      "settingsOverTime_cannotDelete",
+      "settingsOverTime_deleteQuestion",
+      "settingsOverTime_initialDescription",
+      "settingsOverTime_multipleDescription",
+      "settingsOverTime_singleDescription",
+      "settingsOverTime_whichDayQuestion",
+      "settingsReloaded",
+      "settingsWizard",
+      "settingsWizard_12x36",
+      "settingsWizard_12x36_description",
+      "settingsWizard_24x48",
+      "settingsWizard_24x48_description",
+      "settingsWizard_24x72",
+      "settingsWizard_24x72_description",
+      "settingsWizard_4x2",
+      "settingsWizard_4x2_description",
+      "settingsWizard_5x1",
+      "settingsWizard_5x1_description",
+      "settingsWizard_5x2",
+      "settingsWizard_5x2_description",
+      "settingsWizard_6x1",
+      "settingsWizard_6x1_description",
+      "settingsWizard_6x2",
+      "settingsWizard_6x2_description",
+      "settingsWizard_breakTimeQuestion",
+      "settingsWizard_cancelQuestion",
+      "settingsWizard_checkWorkShifts",
+      "settingsWizard_chooseBreakTime",
+      "settingsWizard_chooseMoreBreakTime",
+      "settingsWizard_chooseSameOrDifferentWorkShift",
+      "settingsWizard_chooseShiftMode",
+      "settingsWizard_chooseShiftSchedule",
+      "settingsWizard_chooseWorkSchedule",
+      "settingsWizard_custom",
+      "settingsWizard_custom_bottomSheet_title",
+      "settingsWizard_custom_day_plural",
+      "settingsWizard_custom_day_singular",
+      "settingsWizard_custom_days_toggle",
+      "settingsWizard_custom_description",
+      "settingsWizard_custom_hours_toggle",
+      "settingsWizard_custom_label_days",
+      "settingsWizard_custom_label_hours",
+      "settingsWizard_custom_rest_hours_label",
+      "settingsWizard_custom_rest_label",
+      "settingsWizard_custom_work_hours_label",
+      "settingsWizard_custom_work_label",
+      "settingsWizard_description",
+      "settingsWizard_endTimeQuestion",
+      "settingsWizard_fixedWeekdayWork",
+      "settingsWizard_fixedWeekdayWork_description",
+      "settingsWizard_flexWorkShift",
+      "settingsWizard_introQuestion",
+      "settingsWizard_listSchedules",
+      "settingsWizard_longBreakTimeWarning",
+      "settingsWizard_longLastWorkShiftWarning",
+      "settingsWizard_longWorkShiftWarning",
+      "settingsWizard_moreSettingsHourlyRate",
+      "settingsWizard_moreSettingsMonthlyGoal",
+      "settingsWizard_moreSettingsNightShift",
+      "settingsWizard_moreSettingsNotifications",
+      "settingsWizard_moreSettingsOvertime",
+      "settingsWizard_moreSettingsPath",
+      "settingsWizard_moreSettingsPathTitle",
+      "settingsWizard_moreSettingsSubtitle",
+      "settingsWizard_moreSettingsTags",
+      "settingsWizard_moreSettingsTitle",
+      "settingsWizard_mustBeGreaterThan",
+      "settingsWizard_onlyWorkloadOption",
+      "settingsWizard_selectCopyWorkingDays",
+      "settingsWizard_selectWorkingDays",
+      "settingsWizard_shiftSchedule",
+      "settingsWizard_shiftSchedule_description",
+      "settingsWizard_shiftSchedule_moreInfo",
+      "settingsWizard_shiftWorkloadOnly_custom_description",
+      "settingsWizard_shiftWorkloadOnly_description",
+      "settingsWizard_start",
+      "settingsWizard_startTimeQuestion",
+      "settingsWizard_weeklySchedule",
+      "settingsWizard_weeklySchedule_description",
+      "settingsWizard_weeklySchedule_moreThanFive",
+      "settingsWizard_weeklySchedule_numberQuestion",
+      "settingsWizard_weeklySchedule_requiresAtLeastTwo",
+      "settingsWizard_workload24Hours",
+      "share",
+      "shareSubject",
+      "shareText",
+      "showAdvancedSettings",
+      "showBreakTimeDuration",
+      "showBreakTimeDuration_subtitle",
+      "showDecimalHour",
+      "showDecimalHour_subtitle",
+      "showLocation",
+      "showLocation_subtitle",
+      "showMonetaryValues",
+      "showNotes",
+      "showProgressBar",
+      "showProgressBar_subtitle",
+      "showSummaryOnlyAtTheEnd",
+      "showWorkShiftDuration",
+      "showWorkShiftDuration_subtitle",
+      "signInException_canceled",
+      "signInException_failed",
+      "signInException_invalidResponse",
+      "signInException_notHandled",
+      "signInException_notInteractive",
+      "signInException_unknown",
+      "signInWithApple",
+      "signInWithEmail",
+      "signInWithGoogle",
+      "signOut",
+      "signOutQuestion",
+      "signUp",
+      "signature",
+      "signaturePlaceAndDate",
+      "singlePayment",
+      "skip",
+      "skipLogin",
+      "skipLogin_title",
+      "someMinutesAgo",
+      "someMinutesFromNow",
+      "someTimeAgo",
+      "someTimeFromNow",
+      "sorryIDoNotWantToSupport",
+      "sortAscending",
+      "sortDescending",
+      "specialTolerance",
+      "specialTolerance_description",
+      "specials",
+      "startTime",
+      "startsAt",
+      "statement",
+      "statementClockIn",
+      "statementClockInNotes",
+      "statementClockOut",
+      "statementClockOutNotes",
+      "statements_empty",
+      "storageLocation",
+      "subscriptionDowngradeNotice",
+      "success",
+      "suggestion_add",
+      "suggestion_banner",
+      "summary",
+      "sunday",
+      "supportCode",
+      "tag",
+      "tagIsNotFormatted",
+      "tagIsNotWritable",
+      "tagSuccessfullyCreated",
+      "tag_deleteConfirmation",
+      "tag_deleteQuestion",
+      "tag_deleteWarning",
+      "tag_help_1",
+      "tag_help_2",
+      "tags",
+      "tags_empty",
+      "termsOfUse",
+      "textScale",
+      "textScale_automatic",
+      "textScale_compact",
+      "textScale_extraLarge",
+      "textScale_large",
+      "theme",
+      "thursday",
+      "timeCalculator",
+      "timeCalculator_description",
+      "timeFormat",
+      "timeFormat_12h",
+      "timeFormat_24h",
+      "timeFormat_automatic",
+      "timeToBreakTime",
+      "timeToBreakTimeAnticipate",
+      "timeToBreakTime_subtitle",
+      "timeToGoHome",
+      "timeToGoHomeAnticipate",
+      "timeToGoHomeLater",
+      "timeToGoHome_description",
+      "timeToGoHome_subtitle",
+      "timeToReturn",
+      "timeToReturnAnticipate",
+      "timeToReturn_subtitle",
+      "timeToStart",
+      "timeToStartAnticipate",
+      "timeToStart_description",
+      "timeToStart_subtitle",
+      "to",
+      "toClock",
+      "toleranceForLess",
+      "toleranceForLessOf",
+      "toleranceForMore",
+      "toleranceForMoreOf",
+      "toleranceNotApplied",
+      "toleranceNotApplied_note",
+      "toleranceOf",
+      "toleranceOverlapWarning",
+      "total",
+      "totalBalance",
+      "totalBalanceTwoLines",
+      "trash",
+      "trash_deletePermanently",
+      "trash_deletePermanentlyOneQuestion",
+      "trash_deletePermanentlyQuestion",
+      "trash_deletedAt",
+      "trash_deletedAtUnknown",
+      "trash_empty",
+      "trash_oneRecord",
+      "trash_period_all",
+      "trash_period_last30Days",
+      "trash_period_last7Days",
+      "trash_purgedMany",
+      "trash_purgedOne",
+      "trash_records",
+      "trash_restore",
+      "trash_restoreConflicts",
+      "trash_restoreConflictsTitle",
+      "trash_restoreOneQuestion",
+      "trash_restoreQuestion",
+      "trash_restoredMany",
+      "trash_restoredOne",
+      "tuesday",
+      "tutorialReset",
+      "tutorial_addRegister",
+      "tutorial_createJob",
+      "tutorial_help",
+      "tutorial_registerClockIn",
+      "unit_kilometer",
+      "unit_meter",
+      "unjustifiedAbsence",
+      "unknown",
+      "unknownError",
+      "until",
+      "update",
+      "updateRecommended_buttonLater",
+      "updateRecommended_buttonUpdate",
+      "updateRecommended_message",
+      "updateRecommended_title",
+      "updateRequired_button",
+      "updateRequired_message",
+      "updateRequired_title",
+      "updatingTotalBalance",
+      "upload",
+      "uploadSuccessfully",
+      "uploadWhenQuestion",
+      "uploadWhereQuestion",
+      "uploadingPhoto",
+      "vacation",
+      "validationError_confirmMandatory",
+      "validationError_confirmNotMatch",
+      "validationError_durationZero",
+      "validationError_emailConfirmationMismatch",
+      "validationError_emailInvalid",
+      "validationError_emailMandatory",
+      "validationError_invalidValue",
+      "validationError_jobNameNotMatch",
+      "validationError_nameMandatory",
+      "validationError_passwordConfirmationMismatch",
+      "validationError_passwordLength",
+      "validationError_passwordMandatory",
+      "validationError_percentMandatory",
+      "validationError_reasonMandatory",
+      "validationError_ruleNameNotMatch",
+      "validationError_scheduleNameNotMatch",
+      "validationError_tagNameNotMatch",
+      "version",
+      "viewInStore",
+      "viewInconsistencies",
+      "viewLocation",
+      "viewPhoto",
+      "viewingPreviousDayOpenRecord",
+      "warnMissingRecords",
+      "warnMissingRecords_subtitle",
+      "warning",
+      "wednesday",
+      "week",
+      "weekBalance",
+      "weekWorked",
+      "weeklyGoal",
+      "weeklyGoalAchieved",
+      "weeklyGoalAchievedAnticipate",
+      "weeklyGoalAchieved_details",
+      "weeklyGoalAchieved_subtitle",
+      "weeklySchedule",
+      "weeklyWorkloadOf",
+      "weeklyWorkloadOfWithSchedule",
+      "whatDoYouWantToAdd",
+      "whatsAppMessage",
+      "whatsNew_dayOffBanner_description",
+      "whatsNew_dayOffBanner_title",
+      "whatsNew_intervalNotifications_description",
+      "whatsNew_intervalNotifications_title",
+      "whatsNew_openRecord_description",
+      "whatsNew_openRecord_title",
+      "whatsNew_shiftCycle_description",
+      "whatsNew_shiftCycle_title",
+      "whatsNew_subtitle",
+      "whatsNew_title",
+      "whatsNew_weekNumber_description",
+      "whatsNew_weekNumber_title",
+      "wheel",
+      "widget",
+      "widgetChannelDescription",
+      "widgetChannelName",
+      "withJustification",
+      "withoutDeductingFromBalance",
+      "withoutJustification",
+      "withoutTag",
+      "wizard_guide",
+      "wizard_guideSubtitle",
+      "workSettings",
+      "workShift",
+      "workShiftOf",
+      "workShift_deleteQuestion",
+      "workShifts",
+      "workShifts_configure",
+      "workShifts_description",
+      "worked",
+      "workloadOf",
+      "workload_changeQuestion",
+      "workload_deleteQuestion",
+      "year",
+      "yearBalance",
+      "yearVacationDays",
+      "yearVacationDays_many",
+      "yearWorked",
+      "yearlySubscription",
+      "yearlySubscriptionDetails",
+      "yes",
+      "yesHasMoreBreakTime",
+      "yesItsCorrect",
+      "yesLetsGo",
+      "yesSameTime",
+      "yesWithBreakTime",
+      "youAreNotLogged",
+      "youDoNotWorkTheseDay",
+      "youDoNotWorkThisDay"
+    ]
+  },
+  "paths": [
+    {
+      "fileOffset": 400492,
+      "path": "package:ponto/app/modules/record_audit/record_audit_page.dart"
+    },
+    {
+      "fileOffset": 404006,
+      "path": "package:ponto/app/shared/widgets/request_reason_dialog.dart"
+    },
+    {
+      "fileOffset": 405540,
+      "path": "package:ponto/app/modules/job_break_rule/delete_job_break_rule_dialog.dart"
+    },
+    {
+      "fileOffset": 406622,
+      "path": "package:ponto/app/model/company_member.dart"
+    },
+    {
+      "fileOffset": 406768,
+      "path": "package:ponto/app/model/daily_log_day_ads.dart"
+    },
+    {
+      "fileOffset": 407336,
+      "path": "package:ponto/app/model/record_reset_total_balance.dart"
+    },
+    {
+      "fileOffset": 409171,
+      "path": "package:ponto/app/model/record_clock_pair.dart"
+    },
+    {
+      "fileOffset": 419844,
+      "path": "package:ponto/app/modules/statement/statement_page.dart"
+    },
+    {
+      "fileOffset": 420585,
+      "path": "package:ponto/app/model/clock_audit.dart"
+    },
+    {
+      "fileOffset": 423714,
+      "path": "package:ponto/app/modules/job_settings_wizard/finish_page.dart"
+    },
+    {
+      "fileOffset": 426743,
+      "path": "package:ponto/app/modules/job_settings_wizard/more_settings_sheet.dart"
+    },
+    {
+      "fileOffset": 427786,
+      "path": "package:ponto/app/modules/settings_general_language/settings_general_language_page.dart"
+    },
+    {
+      "fileOffset": 428514,
+      "path": "package:ponto/app/extensions/state.dart"
+    },
+    {
+      "fileOffset": 430459,
+      "path": "package:ponto/app/shared/widgets/tile_card.dart"
+    },
+    {
+      "fileOffset": 433981,
+      "path": "package:ponto/app/modules/kiosk/widgets/kiosk_pin_pad.dart"
+    },
+    {
+      "fileOffset": 435877,
+      "path": "package:ponto/app/modules/job_tag/job_tag_page.dart"
+    },
+    {
+      "fileOffset": 436871,
+      "path": "package:ponto/app/modules/kiosk_pairing/kiosk_pairing_page.dart"
+    },
+    {
+      "fileOffset": 437381,
+      "path": "package:ponto/app/shared/widgets/guide.dart"
+    },
+    {
+      "fileOffset": 441397,
+      "path": "package:ponto/app/shared/widgets/line.dart"
+    },
+    {
+      "fileOffset": 444876,
+      "path": "package:ponto/app/shared/widgets/radio_options_dialog.dart"
+    },
+    {
+      "fileOffset": 446511,
+      "path": "package:ponto/app/modules/job_configs_list/new_config_dialog.dart"
+    },
+    {
+      "fileOffset": 450153,
+      "path": "package:ponto/app/modules/trash/trash_page.dart"
+    },
+    {
+      "fileOffset": 454117,
+      "path": "package:ponto/app/modules/kiosk/kiosk_binding.dart"
+    },
+    {
+      "fileOffset": 462633,
+      "path": "package:ponto/app/modules/inconsistencies/inconsistencies_controller.dart"
+    },
+    {
+      "fileOffset": 462843,
+      "path": "package:ponto/app/modules/kiosk_pin/kiosk_pin_page.dart"
+    },
+    {
+      "fileOffset": 463049,
+      "path": "package:ponto/app/extensions/double.dart"
+    },
+    {
+      "fileOffset": 463539,
+      "path": "package:ponto/app/shared/widgets/options_dialog.dart"
+    },
+    {
+      "fileOffset": 467134,
+      "path": "package:ponto/app/modules/job_break_rules_list/job_break_rules_list_page.dart"
+    },
+    {
+      "fileOffset": 468262,
+      "path": "package:ponto/app/model/working_day.dart"
+    },
+    {
+      "fileOffset": 469713,
+      "path": "package:ponto/app/modules/job_settings_wizard/fixed_workload_wizard_page.dart"
+    },
+    {
+      "fileOffset": 473123,
+      "path": "package:ponto/app/exceptions/jobs_read_exception.dart"
+    },
+    {
+      "fileOffset": 473766,
+      "path": "package:ponto/app/shared/widgets/freeze_warning_banner.dart"
+    },
+    {
+      "fileOffset": 475904,
+      "path": "package:ponto/app/modules/jobs_list/delete_job_dialog.dart"
+    },
+    {
+      "fileOffset": 479268,
+      "path": "package:ponto/app/modules/initial_wizard/first_job_page.dart"
+    },
+    {
+      "fileOffset": 482634,
+      "path": "package:ponto/app/shared/services/location_service.dart"
+    },
+    {
+      "fileOffset": 484059,
+      "path": "package:ponto/app/modules/job_tag/job_tag_controller.dart"
+    },
+    {
+      "fileOffset": 485199,
+      "path": "package:ponto/app/modules/settings_general_storage_directory/settings_general_storage_directory_page.dart"
+    },
+    {
+      "fileOffset": 489965,
+      "path": "package:ponto/app/modules/company_clock_audit/company_clock_audit_page.dart"
+    },
+    {
+      "fileOffset": 490721,
+      "path": "package:ponto/app/utils/stable_fingerprint.dart"
+    },
+    {
+      "fileOffset": 496950,
+      "path": "package:ponto/app/modules/job_general_hidden_balance/job_general_hidden_balance_controller.dart"
+    },
+    {
+      "fileOffset": 505043,
+      "path": "package:ponto/app/shared/services/widget_service.dart"
+    },
+    {
+      "fileOffset": 517305,
+      "path": "package:ponto/app/modules/job_config/on_call_percent_dialog.dart"
+    },
+    {
+      "fileOffset": 520701,
+      "path": "package:ponto/app/shared/kiosk/kiosk_policy.dart"
+    },
+    {
+      "fileOffset": 521677,
+      "path": "package:ponto/app/model/company_access_request.dart"
+    },
+    {
+      "fileOffset": 527658,
+      "path": "package:ponto/app/shared/widgets/statement_date_section.dart"
+    },
+    {
+      "fileOffset": 530648,
+      "path": "package:ponto/app/shared/services/geofence_service.dart"
+    },
+    {
+      "fileOffset": 532152,
+      "path": "package:ponto/app/model/record_balance_settlement.dart"
+    },
+    {
+      "fileOffset": 533038,
+      "path": "package:ponto/app/utils/dev_inspector.dart"
+    },
+    {
+      "fileOffset": 533610,
+      "path": "package:ponto/app/modules/job_config/job_config_controller.dart"
+    },
+    {
+      "fileOffset": 541548,
+      "path": "package:ponto/app/modules/job_day_of_week/workload_advanced_settings_dialog.dart"
+    },
+    {
+      "fileOffset": 542947,
+      "path": "package:ponto/app/model/job_tag.dart"
+    },
+    {
+      "fileOffset": 548647,
+      "path": "package:ponto/app/modules/job_notification_sound/job_notification_sound_page.dart"
+    },
+    {
+      "fileOffset": 548819,
+      "path": "package:ponto/app/shared/services/import_service.dart"
+    },
+    {
+      "fileOffset": 553581,
+      "path": "package:ponto/app/shared/utils/salary_calculator.dart"
+    },
+    {
+      "fileOffset": 561439,
+      "path": "package:ponto/app/modules/day/on_call_dialog.dart"
+    },
+    {
+      "fileOffset": 569098,
+      "path": "package:ponto/app/modules/tags/tags_page.dart"
+    },
+    {
+      "fileOffset": 571535,
+      "path": "package:ponto/app/modules/settings_company/settings_company_page.dart"
+    },
+    {
+      "fileOffset": 583784,
+      "path": "package:ponto/app/modules/dev_config_log/dev_config_log_controller.dart"
+    },
+    {
+      "fileOffset": 586763,
+      "path": "package:ponto/app/shared/kiosk/kiosk_punch_queue.dart"
+    },
+    {
+      "fileOffset": 591839,
+      "path": "package:ponto/app/shared/widgets/month_widget.dart"
+    },
+    {
+      "fileOffset": 595185,
+      "path": "package:ponto/app/modules/settings_photos_backup/settings_photos_backup_controller.dart"
+    },
+    {
+      "fileOffset": 604250,
+      "path": "package:ponto/app/modules/kiosks/kiosks_page.dart"
+    },
+    {
+      "fileOffset": 604411,
+      "path": "package:ponto/app/modules/job_general/job_general_controller.dart"
+    },
+    {
+      "fileOffset": 607404,
+      "path": "package:ponto/app/shared/widgets/record_type_style.dart"
+    },
+    {
+      "fileOffset": 610870,
+      "path": "package:ponto/app/modules/job_settings_wizard/start_time_page.dart"
+    },
+    {
+      "fileOffset": 618800,
+      "path": "package:ponto/app/shared/services/presence_service.dart"
+    },
+    {
+      "fileOffset": 618901,
+      "path": "package:ponto/app/utils/map_render_sentinel.dart"
+    },
+    {
+      "fileOffset": 620106,
+      "path": "package:ponto/app/shared/kiosk/kiosk_punch_history.dart"
+    },
+    {
+      "fileOffset": 626079,
+      "path": "package:ponto/app/model/job_overtime_rule.dart"
+    },
+    {
+      "fileOffset": 627638,
+      "path": "package:ponto/app/modules/reload/reload_page.dart"
+    },
+    {
+      "fileOffset": 628377,
+      "path": "package:ponto/app/modules/tag_records/tag_records_page.dart"
+    },
+    {
+      "fileOffset": 637699,
+      "path": "package:ponto/app/shared/services/holiday_suggestion_service.dart"
+    },
+    {
+      "fileOffset": 637897,
+      "path": "package:ponto/app/modules/chart/chart_total_balance_widget.dart"
+    },
+    {
+      "fileOffset": 638304,
+      "path": "package:ponto/app/shared/widgets/money_text.dart"
+    },
+    {
+      "fileOffset": 639438,
+      "path": "package:ponto/app/shared/services/privacy_service.dart"
+    },
+    {
+      "fileOffset": 643561,
+      "path": "package:ponto/app/modules/dev_companies/dev_company_pending_requests_page.dart"
+    },
+    {
+      "fileOffset": 646431,
+      "path": "package:ponto/app/modules/initial_wizard/intent_page.dart"
+    },
+    {
+      "fileOffset": 649677,
+      "path": "package:ponto/app/shared/services/ump_consent_service.dart"
+    },
+    {
+      "fileOffset": 651045,
+      "path": "package:ponto/app/shared/services/record_audit_service.dart"
+    },
+    {
+      "fileOffset": 652084,
+      "path": "package:ponto/app/extensions/get.dart"
+    },
+    {
+      "fileOffset": 652814,
+      "path": "package:ponto/app/modules/geofence_config/geofence_config_page.dart"
+    },
+    {
+      "fileOffset": 656156,
+      "path": "package:ponto/app/modules/job_photo_resolution/job_photo_resolution_page.dart"
+    },
+    {
+      "fileOffset": 661803,
+      "path": "package:ponto/app/modules/settings_account/confirm_password_dialog.dart"
+    },
+    {
+      "fileOffset": 663455,
+      "path": "package:ponto/app/extensions/string.dart"
+    },
+    {
+      "fileOffset": 666143,
+      "path": "package:ponto/app/shared/widgets/record_balance_settlement_widget.dart"
+    },
+    {
+      "fileOffset": 670104,
+      "path": "package:ponto/app/modules/statement/pdf_generator.dart"
+    },
+    {
+      "fileOffset": 677321,
+      "path": "package:ponto/app/utils/overlapping_days.dart"
+    },
+    {
+      "fileOffset": 678761,
+      "path": "package:ponto/app/modules/day/clock_dialog.dart"
+    },
+    {
+      "fileOffset": 682381,
+      "path": "package:ponto/app/modules/settings_general_time_format/settings_general_time_format_page.dart"
+    },
+    {
+      "fileOffset": 686802,
+      "path": "package:ponto/app/modules/week/week_page.dart"
+    },
+    {
+      "fileOffset": 693119,
+      "path": "package:ponto/app/modules/job_settings_wizard/select_replicate_working_days_page.dart"
+    },
+    {
+      "fileOffset": 695799,
+      "path": "package:ponto/app/modules/jobs_list/jobs_list_controller.dart"
+    },
+    {
+      "fileOffset": 716099,
+      "path": "package:ponto/app/model/presence_status.dart"
+    },
+    {
+      "fileOffset": 717553,
+      "path": "package:ponto/app/modules/company_welcome/company_welcome_dialog.dart"
+    },
+    {
+      "fileOffset": 717810,
+      "path": "package:ponto/app/modules/chart/time_format.dart"
+    },
+    {
+      "fileOffset": 720934,
+      "path": "package:ponto/app/shared/services/ad_service.dart"
+    },
+    {
+      "fileOffset": 723772,
+      "path": "package:ponto/app/modules/migrate_message/migrate_message_page.dart"
+    },
+    {
+      "fileOffset": 729298,
+      "path": "package:ponto/app/shared/widgets/request_record_preview.dart"
+    },
+    {
+      "fileOffset": 729816,
+      "path": "package:ponto/app/modules/job_settings_wizard/choose_work_schedule_page.dart"
+    },
+    {
+      "fileOffset": 730611,
+      "path": "package:ponto/app/shared/widgets/record_external_work_widget.dart"
+    },
+    {
+      "fileOffset": 731610,
+      "path": "package:ponto/app/modules/job_config/additional_time_dialog.dart"
+    },
+    {
+      "fileOffset": 732100,
+      "path": "package:ponto/app/modules/job_overtime_rules_list/job_overtime_rules_list_controller.dart"
+    },
+    {
+      "fileOffset": 740290,
+      "path": "package:ponto/app/modules/statement/create_statement_page.dart"
+    },
+    {
+      "fileOffset": 742567,
+      "path": "package:ponto/app/modules/statement/rename_dialog.dart"
+    },
+    {
+      "fileOffset": 743708,
+      "path": "package:ponto/app/model/company_grant.dart"
+    },
+    {
+      "fileOffset": 743825,
+      "path": "package:ponto/app/shared/widgets/record_workload_widget.dart"
+    },
+    {
+      "fileOffset": 747056,
+      "path": "package:ponto/app/model/day.dart"
+    },
+    {
+      "fileOffset": 747310,
+      "path": "package:ponto/app/modules/day/absence_dialog.dart"
+    },
+    {
+      "fileOffset": 757187,
+      "path": "package:ponto/app/modules/job_settings_wizard/job_settings_wizard_page.dart"
+    },
+    {
+      "fileOffset": 763433,
+      "path": "package:ponto/app/modules/geofence_config/geofence_config_controller.dart"
+    },
+    {
+      "fileOffset": 765580,
+      "path": "package:ponto/app/model/location.dart"
+    },
+    {
+      "fileOffset": 767486,
+      "path": "package:ponto/app/shared/widgets/check_options_dialog.dart"
+    },
+    {
+      "fileOffset": 772368,
+      "path": "package:ponto/app/model/record_extra.dart"
+    },
+    {
+      "fileOffset": 772496,
+      "path": "package:ponto/app/modules/login/login_binding.dart"
+    },
+    {
+      "fileOffset": 783639,
+      "path": "package:ponto/app/modules/job_general/job_general_page.dart"
+    },
+    {
+      "fileOffset": 783999,
+      "path": "package:ponto/app/shared/widgets/record_on_call_widget.dart"
+    },
+    {
+      "fileOffset": 784949,
+      "path": "package:ponto/app/modules/dev_companies/dev_company_transfer_dialog.dart"
+    },
+    {
+      "fileOffset": 785576,
+      "path": "package:ponto/app/shared/widgets/company_access_request_dialog.dart"
+    },
+    {
+      "fileOffset": 785846,
+      "path": "package:ponto/app/shared/kiosk/kiosk_photo_queue.dart"
+    },
+    {
+      "fileOffset": 786553,
+      "path": "package:ponto/app/extensions/duration.dart"
+    },
+    {
+      "fileOffset": 787579,
+      "path": "package:ponto/app/modules/job_day_of_week/break_time_advanced_settings_dialog.dart"
+    },
+    {
+      "fileOffset": 793311,
+      "path": "package:ponto/app/modules/chart/chart_page.dart"
+    },
+    {
+      "fileOffset": 800035,
+      "path": "package:ponto/app/modules/job_settings_wizard/intro_page.dart"
+    },
+    {
+      "fileOffset": 811274,
+      "path": "package:ponto/app/shared/widgets/record_clock_pair_widget.dart"
+    },
+    {
+      "fileOffset": 812801,
+      "path": "package:ponto/app/modules/settings_company/company_subscription_visibility.dart"
+    },
+    {
+      "fileOffset": 820698,
+      "path": "package:ponto/app/modules/dev_companies/dev_company_pending_requests_controller.dart"
+    },
+    {
+      "fileOffset": 824102,
+      "path": "package:ponto/app/model/month.dart"
+    },
+    {
+      "fileOffset": 824924,
+      "path": "package:ponto/app/modules/home/home_binding.dart"
+    },
+    {
+      "fileOffset": 825335,
+      "path": "package:ponto/app/utils/file_utils.dart"
+    },
+    {
+      "fileOffset": 832330,
+      "path": "package:ponto/app/modules/job_break_rules_list/job_break_rules_list_controller.dart"
+    },
+    {
+      "fileOffset": 836842,
+      "path": "package:ponto/app/modules/other_apps/other_apps_page.dart"
+    },
+    {
+      "fileOffset": 843020,
+      "path": "package:ponto/app/extensions/firestore.dart"
+    },
+    {
+      "fileOffset": 845820,
+      "path": "package:ponto/app/shared/widgets/select_days_dialog.dart"
+    },
+    {
+      "fileOffset": 847122,
+      "path": "package:ponto/app/shared/widgets/requests_badge.dart"
+    },
+    {
+      "fileOffset": 850474,
+      "path": "package:ponto/app/modules/day/day_controller.dart"
+    },
+    {
+      "fileOffset": 854104,
+      "path": "package:ponto/app/modules/dev_access_requests/dev_access_requests_page.dart"
+    },
+    {
+      "fileOffset": 862700,
+      "path": "package:ponto/app/model/record_audit.dart"
+    },
+    {
+      "fileOffset": 865940,
+      "path": "package:ponto/app/modules/statement/create_statement_controller.dart"
+    },
+    {
+      "fileOffset": 868209,
+      "path": "package:ponto/app/modules/job_overtime_rules_list/job_overtime_rules_list_page.dart"
+    },
+    {
+      "fileOffset": 868596,
+      "path": "package:ponto/app/shared/widgets/option_card.dart"
+    },
+    {
+      "fileOffset": 880369,
+      "path": "package:ponto/app/shared/services/backup_cloud_service.dart"
+    },
+    {
+      "fileOffset": 882614,
+      "path": "package:ponto/app/utils/constants.dart"
+    },
+    {
+      "fileOffset": 897924,
+      "path": "package:ponto/app/modules/chart/chart_day_balance_widget.dart"
+    },
+    {
+      "fileOffset": 909150,
+      "path": "package:ponto/app/modules/dev_config_log/dev_config_log_page.dart"
+    },
+    {
+      "fileOffset": 909519,
+      "path": "package:ponto/app/model/shift_cycle.dart"
+    },
+    {
+      "fileOffset": 910882,
+      "path": "package:ponto/app/shared/kiosk/kiosk_pin.dart"
+    },
+    {
+      "fileOffset": 926943,
+      "path": "package:ponto/app/modules/statement/statement_worked.dart"
+    },
+    {
+      "fileOffset": 935035,
+      "path": "package:ponto/app/modules/job_night_shift_differential/job_night_shift_differential_page.dart"
+    },
+    {
+      "fileOffset": 937780,
+      "path": "package:ponto/app/shared/mixins/viewing_reload_mixin.dart"
+    },
+    {
+      "fileOffset": 938604,
+      "path": "package:ponto/app/modules/tag_records/tag_records_controller.dart"
+    },
+    {
+      "fileOffset": 942827,
+      "path": "package:ponto/app/modules/settings_general/settings_general_controller.dart"
+    },
+    {
+      "fileOffset": 943183,
+      "path": "package:ponto/app/utils/day_of_week_utils.dart"
+    },
+    {
+      "fileOffset": 950068,
+      "path": "package:ponto/app/model/job_geofence.dart"
+    },
+    {
+      "fileOffset": 960434,
+      "path": "package:ponto/app/modules/job_general_first_day_of_week/job_general_first_day_of_week_controller.dart"
+    },
+    {
+      "fileOffset": 960537,
+      "path": "package:ponto/app/modules/company_join/company_join_controller.dart"
+    },
+    {
+      "fileOffset": 973845,
+      "path": "package:ponto/app/model/record_clock.dart"
+    },
+    {
+      "fileOffset": 982219,
+      "path": "package:ponto/app/shared/mixins/statement_form_mixin.dart"
+    },
+    {
+      "fileOffset": 986714,
+      "path": "package:ponto/app/modules/nfc/nfc_page.dart"
+    },
+    {
+      "fileOffset": 990799,
+      "path": "package:ponto/app/shared/services/dropbox_service.dart"
+    },
+    {
+      "fileOffset": 992290,
+      "path": "package:ponto/app/shared/widgets/record_reset_total_balance_widget.dart"
+    },
+    {
+      "fileOffset": 999248,
+      "path": "package:ponto/app/shared/services/notification_service.dart"
+    },
+    {
+      "fileOffset": 999541,
+      "path": "package:ponto/app/model/record_balance_settlement_description.dart"
+    },
+    {
+      "fileOffset": 1000083,
+      "path": "package:ponto/app/shared/services/hive_service.dart"
+    },
+    {
+      "fileOffset": 1003610,
+      "path": "package:ponto/app/modules/company_requests/company_requests_controller.dart"
+    },
+    {
+      "fileOffset": 1009362,
+      "path": "package:ponto/app/modules/company_batch_statement/batch_statement_helpers.dart"
+    },
+    {
+      "fileOffset": 1027293,
+      "path": "package:ponto/app/extensions/user.dart"
+    },
+    {
+      "fileOffset": 1029278,
+      "path": "package:ponto/app/shared/utils/dsr_calculator.dart"
+    },
+    {
+      "fileOffset": 1035584,
+      "path": "package:ponto/app/extensions/time_of_day.dart"
+    },
+    {
+      "fileOffset": 1036632,
+      "path": "package:ponto/app/app_pages.dart"
+    },
+    {
+      "fileOffset": 1037965,
+      "path": "package:ponto/app/shared/widgets/leading_icon.dart"
+    },
+    {
+      "fileOffset": 1038037,
+      "path": "package:ponto/app/modules/chart/chart_last_clock_out_widget.dart"
+    },
+    {
+      "fileOffset": 1039986,
+      "path": "package:ponto/app/modules/settings_account/settings_account_controller.dart"
+    },
+    {
+      "fileOffset": 1041533,
+      "path": "package:ponto/app/utils/config_log_diff.dart"
+    },
+    {
+      "fileOffset": 1046601,
+      "path": "package:ponto/app/shared/widgets/record_clock_widget.dart"
+    },
+    {
+      "fileOffset": 1048954,
+      "path": "package:ponto/app/shared/widgets/day_widget.dart"
+    },
+    {
+      "fileOffset": 1052463,
+      "path": "package:ponto/app/modules/day/workload_dialog.dart"
+    },
+    {
+      "fileOffset": 1053863,
+      "path": "package:ponto/app/model/record_holiday.dart"
+    },
+    {
+      "fileOffset": 1056456,
+      "path": "package:ponto/app/shared/services/app_service.dart"
+    },
+    {
+      "fileOffset": 1069888,
+      "path": "package:ponto/app/shared/widgets/circle.dart"
+    },
+    {
+      "fileOffset": 1074666,
+      "path": "package:ponto/app/modules/job_settings_wizard/replicate_working_day_page.dart"
+    },
+    {
+      "fileOffset": 1089224,
+      "path": "package:ponto/app/shared/widgets/qr_scanner_overlay_shape.dart"
+    },
+    {
+      "fileOffset": 1094593,
+      "path": "package:ponto/app/modules/settings_general_theme/settings_general_theme_page.dart"
+    },
+    {
+      "fileOffset": 1112496,
+      "path": "package:ponto/app/shared/widgets/time_form_field.dart"
+    },
+    {
+      "fileOffset": 1118711,
+      "path": "package:ponto/app/modules/settings_general_time_format/settings_general_time_format_controller.dart"
+    },
+    {
+      "fileOffset": 1119225,
+      "path": "package:ponto/app/model/record_vacation.dart"
+    },
+    {
+      "fileOffset": 1121368,
+      "path": "package:ponto/app/shared/widgets/dev_json_dialog.dart"
+    },
+    {
+      "fileOffset": 1125139,
+      "path": "package:ponto/app/model/company_freeze_warning.dart"
+    },
+    {
+      "fileOffset": 1128193,
+      "path": "package:ponto/app/modules/settings/settings_page.dart"
+    },
+    {
+      "fileOffset": 1129072,
+      "path": "package:ponto/app/modules/about/about_controller.dart"
+    },
+    {
+      "fileOffset": 1130505,
+      "path": "package:ponto/app/shared/widgets/loading.dart"
+    },
+    {
+      "fileOffset": 1132049,
+      "path": "package:ponto/app/modules/job_settings_wizard/weekly_schedule_dialog.dart"
+    },
+    {
+      "fileOffset": 1143992,
+      "path": "package:ponto/app/model/record_percentage.dart"
+    },
+    {
+      "fileOffset": 1153098,
+      "path": "package:ponto/app/modules/job_general_first_day_of_month/job_general_first_day_of_month_controller.dart"
+    },
+    {
+      "fileOffset": 1157877,
+      "path": "package:ponto/app/modules/dev_access_requests/dev_access_requests_controller.dart"
+    },
+    {
+      "fileOffset": 1162236,
+      "path": "package:ponto/app/modules/company_join/company_join_page.dart"
+    },
+    {
+      "fileOffset": 1163163,
+      "path": "package:ponto/app/modules/company_requests/request_notifications_dialog.dart"
+    },
+    {
+      "fileOffset": 1167089,
+      "path": "package:ponto/app/shared/services/stale_day_ledger.dart"
+    },
+    {
+      "fileOffset": 1173653,
+      "path": "package:ponto/app/shared/widgets/record_widget.dart"
+    },
+    {
+      "fileOffset": 1186932,
+      "path": "package:ponto/app/modules/job_tags_list/job_tags_list_controller.dart"
+    },
+    {
+      "fileOffset": 1188556,
+      "path": "package:ponto/app/modules/tags/tags_controller.dart"
+    },
+    {
+      "fileOffset": 1188888,
+      "path": "package:ponto/app/model/kiosk.dart"
+    },
+    {
+      "fileOffset": 1192533,
+      "path": "package:ponto/app/shared/widgets/record_percentage_widget.dart"
+    },
+    {
+      "fileOffset": 1193808,
+      "path": "package:ponto/app/modules/kiosks/kiosks_controller.dart"
+    },
+    {
+      "fileOffset": 1198672,
+      "path": "package:ponto/app/modules/job_day_of_week/replicate_config_dialog.dart"
+    },
+    {
+      "fileOffset": 1199717,
+      "path": "package:ponto/app/model/daily_log_day.dart"
+    },
+    {
+      "fileOffset": 1203204,
+      "path": "package:ponto/app/modules/job_general/discount_on_first_clock_in_dialog.dart"
+    },
+    {
+      "fileOffset": 1209164,
+      "path": "package:ponto/app/modules/job_settings_wizard/end_time_page.dart"
+    },
+    {
+      "fileOffset": 1211265,
+      "path": "package:ponto/app/utils/dev_format.dart"
+    },
+    {
+      "fileOffset": 1223628,
+      "path": "package:ponto/app/shared/kiosk/kiosk_punch_reconciler.dart"
+    },
+    {
+      "fileOffset": 1228299,
+      "path": "package:ponto/app/model/company_request.dart"
+    },
+    {
+      "fileOffset": 1228608,
+      "path": "package:ponto/app/modules/login_email/login_email_page.dart"
+    },
+    {
+      "fileOffset": 1232177,
+      "path": "package:ponto/app/model/work_shift.dart"
+    },
+    {
+      "fileOffset": 1234563,
+      "path": "package:ponto/app/modules/job_tag/delete_tag_dialog.dart"
+    },
+    {
+      "fileOffset": 1235100,
+      "path": "package:ponto/app/modules/login/login_page.dart"
+    },
+    {
+      "fileOffset": 1243210,
+      "path": "package:ponto/app/modules/chart/chart_day_worked_widget.dart"
+    },
+    {
+      "fileOffset": 1243920,
+      "path": "package:ponto/app/modules/login/login_controller.dart"
+    },
+    {
+      "fileOffset": 1248814,
+      "path": "package:ponto/app/modules/company_subscription/company_subscription_page.dart"
+    },
+    {
+      "fileOffset": 1250148,
+      "path": "package:ponto/app/model/presence_decision.dart"
+    },
+    {
+      "fileOffset": 1253390,
+      "path": "package:ponto/app/shared/widgets/bonus_rounding_tile.dart"
+    },
+    {
+      "fileOffset": 1259139,
+      "path": "package:ponto/app/modules/job/job_page.dart"
+    },
+    {
+      "fileOffset": 1263396,
+      "path": "package:ponto/app/modules/menu/menu_page.dart"
+    },
+    {
+      "fileOffset": 1269436,
+      "path": "package:ponto/app/modules/chart/chart_widget.dart"
+    },
+    {
+      "fileOffset": 1277602,
+      "path": "package:ponto/app/shared/widgets/sub_app_bar.dart"
+    },
+    {
+      "fileOffset": 1279063,
+      "path": "package:ponto/app/shared/widgets/worked_hours_row.dart"
+    },
+    {
+      "fileOffset": 1280891,
+      "path": "package:ponto/app/modules/job_schedule/delete_schedule_dialog.dart"
+    },
+    {
+      "fileOffset": 1284655,
+      "path": "package:ponto/app/modules/job_day_of_week/abstract_job_work_shift_controller.dart"
+    },
+    {
+      "fileOffset": 1741457,
+      "path": "package:ponto/app/model/job_schedule.dart"
+    },
+    {
+      "fileOffset": 1746724,
+      "path": "package:ponto/app/modules/job_schedule/job_schedule_controller.dart"
+    },
+    {
+      "fileOffset": 1750058,
+      "path": "package:ponto/app/modules/job_configs_list/job_configs_list_controller.dart"
+    },
+    {
+      "fileOffset": 1750610,
+      "path": "package:ponto/app/shared/widgets/employee_filter.dart"
+    },
+    {
+      "fileOffset": 1750997,
+      "path": "package:ponto/app/exceptions/company_exception.dart"
+    },
+    {
+      "fileOffset": 1753328,
+      "path": "package:ponto/app/shared/services/job_service.dart"
+    },
+    {
+      "fileOffset": 1754072,
+      "path": "package:ponto/app/modules/settings_general_storage_directory/settings_general_storage_directory_controller.dart"
+    },
+    {
+      "fileOffset": 1757508,
+      "path": "package:ponto/app/utils/load_trace.dart"
+    },
+    {
+      "fileOffset": 1759943,
+      "path": "package:ponto/app/modules/photo/photo_page.dart"
+    },
+    {
+      "fileOffset": 1763639,
+      "path": "package:ponto/app/modules/about/about_page.dart"
+    },
+    {
+      "fileOffset": 1767137,
+      "path": "package:ponto/app/shared/widgets/safe_area_with_dynamic_bottom.dart"
+    },
+    {
+      "fileOffset": 1768370,
+      "path": "package:ponto/app/modules/company_batch_statement/batch_member_picker_dialog.dart"
+    },
+    {
+      "fileOffset": 1771020,
+      "path": "package:ponto/app/shared/widgets/day_balance_options_dialog.dart"
+    },
+    {
+      "fileOffset": 1771800,
+      "path": "package:ponto/app/exceptions/location_exception.dart"
+    },
+    {
+      "fileOffset": 1772186,
+      "path": "package:ponto/app/modules/job_configs_list/job_configs_list_page.dart"
+    },
+    {
+      "fileOffset": 1781475,
+      "path": "package:ponto/app/extensions/write_batch.dart"
+    },
+    {
+      "fileOffset": 1786944,
+      "path": "package:ponto/app/shared/widgets/company_access_request_status.dart"
+    },
+    {
+      "fileOffset": 1787052,
+      "path": "package:ponto/app/shared/widgets/freeze_banner.dart"
+    },
+    {
+      "fileOffset": 1790550,
+      "path": "package:ponto/app/model/company_invite.dart"
+    },
+    {
+      "fileOffset": 1794240,
+      "path": "package:ponto/app/utils/sortable_id.dart"
+    },
+    {
+      "fileOffset": 1799562,
+      "path": "package:ponto/app/modules/month/month_page.dart"
+    },
+    {
+      "fileOffset": 1799632,
+      "path": "package:ponto/app/modules/kiosk/widgets/kiosk_camera_view.dart"
+    },
+    {
+      "fileOffset": 1800330,
+      "path": "package:ponto/app/modules/job_notification_sound/job_notification_sound_controller.dart"
+    },
+    {
+      "fileOffset": 1809375,
+      "path": "package:ponto/app/utils/rounding_utils.dart"
+    },
+    {
+      "fileOffset": 1825095,
+      "path": "package:ponto/app/model/daily_log_day_firestore.dart"
+    },
+    {
+      "fileOffset": 1832754,
+      "path": "package:ponto/app/shared/services/shared_preferences_service.dart"
+    },
+    {
+      "fileOffset": 1845950,
+      "path": "package:ponto/app/model/record_on_call.dart"
+    },
+    {
+      "fileOffset": 1848836,
+      "path": "package:ponto/app/modules/job_break_rule/job_break_rule_controller.dart"
+    },
+    {
+      "fileOffset": 1853334,
+      "path": "package:ponto/app/modules/nfc/nfc_controller.dart"
+    },
+    {
+      "fileOffset": 1855033,
+      "path": "package:ponto/app/extensions/document_reference.dart"
+    },
+    {
+      "fileOffset": 1857845,
+      "path": "package:ponto/app/modules/chart/chart_controller.dart"
+    },
+    {
+      "fileOffset": 1858569,
+      "path": "package:ponto/app/shared/widgets/member_approval_dialogs.dart"
+    },
+    {
+      "fileOffset": 1859855,
+      "path": "package:ponto/app/shared/widgets/help_app_bar_action.dart"
+    },
+    {
+      "fileOffset": 1861658,
+      "path": "package:ponto/app/modules/company_batch_statement/company_batch_statement_page.dart"
+    },
+    {
+      "fileOffset": 1865372,
+      "path": "package:ponto/app/modules/dev_companies/dev_companies_controller.dart"
+    },
+    {
+      "fileOffset": 1866112,
+      "path": "package:ponto/app/modules/welcome/welcome_page.dart"
+    },
+    {
+      "fileOffset": 1868908,
+      "path": "package:ponto/app/shared/widgets/record_vacation_widget.dart"
+    },
+    {
+      "fileOffset": 1871058,
+      "path": "package:ponto/app/modules/search/search_controller.dart"
+    },
+    {
+      "fileOffset": 1875461,
+      "path": "package:ponto/app/modules/day/extra_dialog.dart"
+    },
+    {
+      "fileOffset": 1876491,
+      "path": "package:ponto/app/modules/job_general_hidden_balance/job_general_hidden_balance_page.dart"
+    },
+    {
+      "fileOffset": 1880938,
+      "path": "package:ponto/app/modules/day/external_work_dialog.dart"
+    },
+    {
+      "fileOffset": 1884800,
+      "path": "package:ponto/app/modules/home/home_page.dart"
+    },
+    {
+      "fileOffset": 1885066,
+      "path": "package:ponto/app/utils/utils.dart"
+    },
+    {
+      "fileOffset": 1889333,
+      "path": "package:ponto/app/modules/kiosk_photo/kiosk_photo_page.dart"
+    },
+    {
+      "fileOffset": 1894171,
+      "path": "package:ponto/app/modules/kiosk/widgets/kiosk_screensaver.dart"
+    },
+    {
+      "fileOffset": 1895014,
+      "path": "package:ponto/app/modules/job_notifications/later_dialog.dart"
+    },
+    {
+      "fileOffset": 1901733,
+      "path": "package:ponto/app/utils/app_urls.dart"
+    },
+    {
+      "fileOffset": 1904335,
+      "path": "package:ponto/app/modules/search/search_page.dart"
+    },
+    {
+      "fileOffset": 1909121,
+      "path": "package:ponto/app/shared/widgets/shimmer_box.dart"
+    },
+    {
+      "fileOffset": 1920124,
+      "path": "package:ponto/app/shared/services/background_service.dart"
+    },
+    {
+      "fileOffset": 1921843,
+      "path": "package:ponto/app/modules/statement/statement_controller.dart"
+    },
+    {
+      "fileOffset": 1922177,
+      "path": "package:ponto/app/modules/job_settings_wizard/choose_same_or_different_work_shift_page.dart"
+    },
+    {
+      "fileOffset": 1926507,
+      "path": "package:ponto/app/modules/year/year_page.dart"
+    },
+    {
+      "fileOffset": 1927123,
+      "path": "package:ponto/app/modules/day/vacation_dialog.dart"
+    },
+    {
+      "fileOffset": 1932815,
+      "path": "package:ponto/app/modules/company_batch_statement/company_batch_statement_controller.dart"
+    },
+    {
+      "fileOffset": 1940701,
+      "path": "package:ponto/app/model/daily_log_month.dart"
+    },
+    {
+      "fileOffset": 1945204,
+      "path": "package:ponto/app/modules/settings_account/delete_account_dialog.dart"
+    },
+    {
+      "fileOffset": 1945354,
+      "path": "package:ponto/app/modules/company_subscription/company_subscription_controller.dart"
+    },
+    {
+      "fileOffset": 1946998,
+      "path": "package:ponto/app/modules/company/company_controller.dart"
+    },
+    {
+      "fileOffset": 1947502,
+      "path": "package:ponto/app/utils/implausible_duration.dart"
+    },
+    {
+      "fileOffset": 1951190,
+      "path": "package:ponto/app/modules/job_photos/job_photos_controller.dart"
+    },
+    {
+      "fileOffset": 1953177,
+      "path": "package:ponto/app/modules/job_photo_quality/job_photo_quality_controller.dart"
+    },
+    {
+      "fileOffset": 1953626,
+      "path": "package:ponto/app/shared/widgets/company_account_required.dart"
+    },
+    {
+      "fileOffset": 1958742,
+      "path": "package:ponto/app/shared/services/user_service.dart"
+    },
+    {
+      "fileOffset": 1960907,
+      "path": "package:ponto/app/modules/sign_up/sign_up_page.dart"
+    },
+    {
+      "fileOffset": 1962933,
+      "path": "package:ponto/app/modules/kiosk/kiosk_page.dart"
+    },
+    {
+      "fileOffset": 1964752,
+      "path": "package:ponto/app/modules/job_day_of_week/job_day_of_week_controller.dart"
+    },
+    {
+      "fileOffset": 1965322,
+      "path": "package:ponto/app/modules/day/holiday_dialog.dart"
+    },
+    {
+      "fileOffset": 1966708,
+      "path": "package:ponto/app/shared/widgets/record_absence_widget.dart"
+    },
+    {
+      "fileOffset": 1971681,
+      "path": "package:ponto/app/modules/dev_companies/dev_company_email_dialog.dart"
+    },
+    {
+      "fileOffset": 1973123,
+      "path": "package:ponto/app/shared/widgets/option_checkbox.dart"
+    },
+    {
+      "fileOffset": 1986502,
+      "path": "package:ponto/app/modules/company_clock_audit/audit_location_page.dart"
+    },
+    {
+      "fileOffset": 1991173,
+      "path": "package:ponto/app/modules/day/missing_job_mode.dart"
+    },
+    {
+      "fileOffset": 1993393,
+      "path": "package:ponto/app/modules/job_settings_wizard/start_page.dart"
+    },
+    {
+      "fileOffset": 1993680,
+      "path": "package:ponto/app/shared/widgets/record_extra_widget.dart"
+    },
+    {
+      "fileOffset": 1995399,
+      "path": "package:ponto/app/model/job.dart"
+    },
+    {
+      "fileOffset": 1995518,
+      "path": "package:ponto/app/extensions/date_time.dart"
+    },
+    {
+      "fileOffset": 2008042,
+      "path": "package:ponto/app/modules/job_config/job_config_page.dart"
+    },
+    {
+      "fileOffset": 2008142,
+      "path": "package:ponto/app/shared/widgets/mini_record_widget.dart"
+    },
+    {
+      "fileOffset": 2009043,
+      "path": "package:ponto/app/modules/day/day_page.dart"
+    },
+    {
+      "fileOffset": 2024884,
+      "path": "package:ponto/app/modules/dev_config_log/dev_config_log_timeline.dart"
+    },
+    {
+      "fileOffset": 2031116,
+      "path": "package:ponto/app/modules/geofence_area/geofence_area_controller.dart"
+    },
+    {
+      "fileOffset": 2033766,
+      "path": "package:ponto/app/model/job_statement.dart"
+    },
+    {
+      "fileOffset": 2035250,
+      "path": "package:ponto/app/modules/company_clock_audit/company_clock_audit_controller.dart"
+    },
+    {
+      "fileOffset": 2037032,
+      "path": "package:ponto/app/modules/job/disable_job_dialog.dart"
+    },
+    {
+      "fileOffset": 2037683,
+      "path": "package:ponto/app/modules/job_settings_wizard/list_schedules_page.dart"
+    },
+    {
+      "fileOffset": 2040024,
+      "path": "package:ponto/app/shared/widgets/record_off_work_widget.dart"
+    },
+    {
+      "fileOffset": 2044300,
+      "path": "package:ponto/app/model/job_config.dart"
+    },
+    {
+      "fileOffset": 2045878,
+      "path": "package:ponto/app/model/record_absence.dart"
+    },
+    {
+      "fileOffset": 2047091,
+      "path": "package:ponto/app/app_binding.dart"
+    },
+    {
+      "fileOffset": 2058487,
+      "path": "package:ponto/app/modules/day/missing_job_options.dart"
+    },
+    {
+      "fileOffset": 2072556,
+      "path": "package:ponto/app/modules/dev_grants/dev_grants_page.dart"
+    },
+    {
+      "fileOffset": 2077508,
+      "path": "package:ponto/app/shared/widgets/record_location_button.dart"
+    },
+    {
+      "fileOffset": 2087304,
+      "path": "package:ponto/app/model/record_external_work.dart"
+    },
+    {
+      "fileOffset": 2089877,
+      "path": "package:ponto/app/model/worked_summary.dart"
+    },
+    {
+      "fileOffset": 2097428,
+      "path": "package:ponto/app/model/app_settings.dart"
+    },
+    {
+      "fileOffset": 2101247,
+      "path": "package:ponto/app/shared/widgets/support_contact_buttons.dart"
+    },
+    {
+      "fileOffset": 2104385,
+      "path": "package:ponto/app/modules/job_night_shift_differential/job_night_shift_differential_controller.dart"
+    },
+    {
+      "fileOffset": 2110578,
+      "path": "package:ponto/app/modules/initial_wizard/initial_wizard_page.dart"
+    },
+    {
+      "fileOffset": 2110950,
+      "path": "package:ponto/app/shared/widgets/intent_card.dart"
+    },
+    {
+      "fileOffset": 2124020,
+      "path": "package:ponto/app/modules/job_day_of_week/break_time_widget.dart"
+    },
+    {
+      "fileOffset": 2124332,
+      "path": "package:ponto/app/modules/job_config/duration_dialog.dart"
+    },
+    {
+      "fileOffset": 2125146,
+      "path": "package:ponto/app/extensions/file.dart"
+    },
+    {
+      "fileOffset": 2125206,
+      "path": "package:ponto/app/modules/week/week_controller.dart"
+    },
+    {
+      "fileOffset": 2134640,
+      "path": "package:ponto/app/shared/services/remote_config_service.dart"
+    },
+    {
+      "fileOffset": 2143248,
+      "path": "package:ponto/app/shared/services/push_token_service.dart"
+    },
+    {
+      "fileOffset": 2143459,
+      "path": "package:ponto/app/modules/job_settings_wizard/working_day_timeline_widget.dart"
+    },
+    {
+      "fileOffset": 2144078,
+      "path": "package:ponto/app/shared/widgets/dev_filter_bar.dart"
+    },
+    {
+      "fileOffset": 2144869,
+      "path": "package:ponto/app/model/break_time.dart"
+    },
+    {
+      "fileOffset": 2146475,
+      "path": "package:ponto/app/modules/settings_company/settings_company_controller.dart"
+    },
+    {
+      "fileOffset": 2147253,
+      "path": "package:ponto/app/shared/widgets/request_reason_line.dart"
+    },
+    {
+      "fileOffset": 2147377,
+      "path": "package:ponto/app/modules/photos/photos_page.dart"
+    },
+    {
+      "fileOffset": 2150257,
+      "path": "package:ponto/app/modules/job_overtime_rule/job_overtime_rule_page.dart"
+    },
+    {
+      "fileOffset": 2153502,
+      "path": "package:ponto/app/modules/company_requests/company_requests_page.dart"
+    },
+    {
+      "fileOffset": 2157479,
+      "path": "package:ponto/app/modules/sign_up/sign_up_binding.dart"
+    },
+    {
+      "fileOffset": 2158755,
+      "path": "package:ponto/app/shared/widgets/shift_cycle_picker_sheet.dart"
+    },
+    {
+      "fileOffset": 2166244,
+      "path": "package:ponto/app/modules/pdf_viewer/pdf_viewer_page.dart"
+    },
+    {
+      "fileOffset": 2171321,
+      "path": "package:ponto/app/shared/services/clock_audit_service.dart"
+    },
+    {
+      "fileOffset": 2172198,
+      "path": "package:ponto/app/shared/services/migrate_service.dart"
+    },
+    {
+      "fileOffset": 2176266,
+      "path": "package:ponto/app/shared/provider/theme_provider.dart"
+    },
+    {
+      "fileOffset": 2176614,
+      "path": "package:ponto/app/modules/day/balance_settlement_dialog.dart"
+    },
+    {
+      "fileOffset": 2178010,
+      "path": "package:ponto/app/modules/job_schedule/job_schedule_page.dart"
+    },
+    {
+      "fileOffset": 2179226,
+      "path": "package:ponto/app/modules/company/company_page.dart"
+    },
+    {
+      "fileOffset": 2181298,
+      "path": "package:ponto/app/shared/widgets/repeat_by_popup.dart"
+    },
+    {
+      "fileOffset": 2183509,
+      "path": "package:ponto/app/shared/widgets/kiosk_pin_tile.dart"
+    },
+    {
+      "fileOffset": 2195174,
+      "path": "package:ponto/app/modules/jobs_list/jobs_list_page.dart"
+    },
+    {
+      "fileOffset": 2196682,
+      "path": "package:ponto/app/modules/kiosk/kiosk_flow.dart"
+    },
+    {
+      "fileOffset": 2197871,
+      "path": "package:ponto/app/app_colors.dart"
+    },
+    {
+      "fileOffset": 2199043,
+      "path": "package:ponto/app/modules/settings_general/settings_general_page.dart"
+    },
+    {
+      "fileOffset": 2199669,
+      "path": "package:ponto/app/shared/widgets/company_readonly_overlay.dart"
+    },
+    {
+      "fileOffset": 2200951,
+      "path": "package:ponto/app/modules/kiosk_pin/kiosk_pin_controller.dart"
+    },
+    {
+      "fileOffset": 2202372,
+      "path": "package:ponto/app/modules/dev_companies/dev_company_detail_controller.dart"
+    },
+    {
+      "fileOffset": 2202759,
+      "path": "package:ponto/app/model/record_off_work.dart"
+    },
+    {
+      "fileOffset": 2204553,
+      "path": "package:ponto/app/shared/widgets/current_plan_badge.dart"
+    },
+    {
+      "fileOffset": 2206485,
+      "path": "package:ponto/app/modules/month/month_grid.dart"
+    },
+    {
+      "fileOffset": 2213302,
+      "path": "package:ponto/app/modules/login_email/login_email_controller.dart"
+    },
+    {
+      "fileOffset": 2214215,
+      "path": "package:ponto/app/modules/geofence_area/geofence_area_page.dart"
+    },
+    {
+      "fileOffset": 2217832,
+      "path": "package:ponto/app/modules/job_overtime_rule/delete_job_overtime_rule_dialog.dart"
+    },
+    {
+      "fileOffset": 2226635,
+      "path": "package:ponto/app/model/job_night_shift_differential.dart"
+    },
+    {
+      "fileOffset": 2230036,
+      "path": "package:ponto/app/modules/job_day_of_week/job_day_of_week_page.dart"
+    },
+    {
+      "fileOffset": 2243289,
+      "path": "package:ponto/app/modules/trash/trash_controller.dart"
+    },
+    {
+      "fileOffset": 2243834,
+      "path": "package:ponto/app/modules/settings_general_language/settings_general_language_controller.dart"
+    },
+    {
+      "fileOffset": 2248009,
+      "path": "package:ponto/app/modules/day/add_photo_dialog.dart"
+    },
+    {
+      "fileOffset": 2248172,
+      "path": "package:ponto/app/modules/job_config/inconsistency_duration_dialog.dart"
+    },
+    {
+      "fileOffset": 2250986,
+      "path": "package:ponto/app/modules/location/location_page.dart"
+    },
+    {
+      "fileOffset": 2256606,
+      "path": "package:ponto/app/shared/widgets/file_widget.dart"
+    },
+    {
+      "fileOffset": 2258265,
+      "path": "package:ponto/app/modules/dev_companies/dev_company_email.dart"
+    },
+    {
+      "fileOffset": 2271236,
+      "path": "package:ponto/app/modules/specials/specials_page.dart"
+    },
+    {
+      "fileOffset": 2282718,
+      "path": "package:ponto/app/modules/job_day_of_week/work_shift_advanced_settings_dialog.dart"
+    },
+    {
+      "fileOffset": 2285909,
+      "path": "package:ponto/app/model/record.dart"
+    },
+    {
+      "fileOffset": 2289455,
+      "path": "package:ponto/app/modules/job_day_of_week/work_shift_dialog.dart"
+    },
+    {
+      "fileOffset": 2290746,
+      "path": "package:ponto/app/exceptions/conflict_exception.dart"
+    },
+    {
+      "fileOffset": 2293031,
+      "path": "package:ponto/app/shared/services/company_service.dart"
+    },
+    {
+      "fileOffset": 2303771,
+      "path": "package:ponto/app/shared/widgets/bonus_detail_tile.dart"
+    },
+    {
+      "fileOffset": 2317344,
+      "path": "package:ponto/app/modules/job_day_of_week/work_shift_widget.dart"
+    },
+    {
+      "fileOffset": 2327632,
+      "path": "package:ponto/app/modules/job_settings_wizard/select_working_days_page.dart"
+    },
+    {
+      "fileOffset": 2328085,
+      "path": "package:ponto/app/model/member_setup_cache.dart"
+    },
+    {
+      "fileOffset": 2329796,
+      "path": "package:ponto/app/utils/remote_change_filter.dart"
+    },
+    {
+      "fileOffset": 2330219,
+      "path": "package:ponto/app/exceptions/unavailable_month_exception.dart"
+    },
+    {
+      "fileOffset": 2340006,
+      "path": "package:ponto/app/modules/remove_ads/remove_ads_page.dart"
+    },
+    {
+      "fileOffset": 2341927,
+      "path": "package:ponto/app/modules/day/off_work_dialog.dart"
+    },
+    {
+      "fileOffset": 2342307,
+      "path": "package:ponto/app/model/company.dart"
+    },
+    {
+      "fileOffset": 2350474,
+      "path": "package:ponto/app/modules/kiosk_pairing/kiosk_pairing_controller.dart"
+    },
+    {
+      "fileOffset": 2355850,
+      "path": "package:ponto/app/modules/job_general_first_day_of_week/job_general_first_day_of_week_page.dart"
+    },
+    {
+      "fileOffset": 2363071,
+      "path": "package:ponto/app/modules/statement/excel_generator.dart"
+    },
+    {
+      "fileOffset": 2363804,
+      "path": "package:ponto/app/modules/dev_companies/dev_companies_page.dart"
+    },
+    {
+      "fileOffset": 2374619,
+      "path": "package:ponto/app/shared/widgets/text_radio.dart"
+    },
+    {
+      "fileOffset": 2381049,
+      "path": "package:ponto/app/shared/utils/day_balance_options.dart"
+    },
+    {
+      "fileOffset": 2384387,
+      "path": "package:ponto/app/modules/job_settings_wizard/choose_shift_schedule_page.dart"
+    },
+    {
+      "fileOffset": 2386888,
+      "path": "package:ponto/app/shared/services/google_drive_service.dart"
+    },
+    {
+      "fileOffset": 2389155,
+      "path": "package:ponto/app/shared/kiosk/kiosk_photo_shrink.dart"
+    },
+    {
+      "fileOffset": 2397968,
+      "path": "package:ponto/app/shared/services/volume_service.dart"
+    },
+    {
+      "fileOffset": 2400330,
+      "path": "package:ponto/app/modules/year/year_controller.dart"
+    },
+    {
+      "fileOffset": 2414023,
+      "path": "package:ponto/app/shared/widgets/options_radio_dialog.dart"
+    },
+    {
+      "fileOffset": 2416656,
+      "path": "package:ponto/app/modules/settings_photos_backup/settings_photos_backup_page.dart"
+    },
+    {
+      "fileOffset": 2418465,
+      "path": "package:ponto/app/modules/chart/duration_format.dart"
+    },
+    {
+      "fileOffset": 2425662,
+      "path": "package:ponto/app/modules/job_photos/job_photos_page.dart"
+    },
+    {
+      "fileOffset": 2425975,
+      "path": "package:ponto/app/modules/job_notifications/job_notifications_page.dart"
+    },
+    {
+      "fileOffset": 2428512,
+      "path": "package:ponto/app/modules/welcome/welcome_controller.dart"
+    },
+    {
+      "fileOffset": 2431311,
+      "path": "package:ponto/app/modules/settings_general_text_scale/settings_general_text_scale_page.dart"
+    },
+    {
+      "fileOffset": 2434200,
+      "path": "package:ponto/app/shared/services/billing_service.dart"
+    },
+    {
+      "fileOffset": 2452046,
+      "path": "package:ponto/app/modules/company_subscription/company_subscription_view.dart"
+    },
+    {
+      "fileOffset": 2455177,
+      "path": "package:ponto/app/shared/widgets/text_switch.dart"
+    },
+    {
+      "fileOffset": 2456024,
+      "path": "package:ponto/app/exceptions/interval_suggestion_exception.dart"
+    },
+    {
+      "fileOffset": 2460523,
+      "path": "package:ponto/app/modules/settings_general_theme/settings_general_theme_controller.dart"
+    },
+    {
+      "fileOffset": 2471113,
+      "path": "package:ponto/app/modules/kiosk/kiosk_controller.dart"
+    },
+    {
+      "fileOffset": 2488746,
+      "path": "package:ponto/app/model/app_addons.dart"
+    },
+    {
+      "fileOffset": 2491350,
+      "path": "package:ponto/app/modules/job_photo_quality/job_photo_quality_page.dart"
+    },
+    {
+      "fileOffset": 2491891,
+      "path": "package:ponto/app/model/job_general.dart"
+    },
+    {
+      "fileOffset": 2496734,
+      "path": "package:ponto/app/modules/job_settings_wizard/break_time_page.dart"
+    },
+    {
+      "fileOffset": 2501564,
+      "path": "package:ponto/app/modules/dev_grants/dev_grants_controller.dart"
+    },
+    {
+      "fileOffset": 2507659,
+      "path": "package:ponto/app/modules/day/percentage_dialog.dart"
+    },
+    {
+      "fileOffset": 2508140,
+      "path": "package:ponto/app/modules/job_notifications/anticipate_dialog.dart"
+    },
+    {
+      "fileOffset": 2511704,
+      "path": "package:ponto/app/utils/three_way_merge.dart"
+    },
+    {
+      "fileOffset": 2515180,
+      "path": "package:ponto/app/shared/services/config_log.dart"
+    },
+    {
+      "fileOffset": 2515522,
+      "path": "package:ponto/app/shared/widgets/column_title.dart"
+    },
+    {
+      "fileOffset": 2515729,
+      "path": "package:ponto/app/modules/inconsistencies/inconsistencies_page.dart"
+    },
+    {
+      "fileOffset": 2518483,
+      "path": "package:ponto/app/utils/firestore_errors.dart"
+    },
+    {
+      "fileOffset": 2519297,
+      "path": "package:ponto/app/shared/widgets/statement_options_form.dart"
+    },
+    {
+      "fileOffset": 2519530,
+      "path": "package:ponto/app/modules/job_break_rule/job_break_rule_page.dart"
+    },
+    {
+      "fileOffset": 2521497,
+      "path": "package:ponto/app/modules/job_notifications/job_notifications_controller.dart"
+    },
+    {
+      "fileOffset": 2524848,
+      "path": "package:ponto/app/modules/settings_general_text_scale/settings_general_text_scale_controller.dart"
+    },
+    {
+      "fileOffset": 2529224,
+      "path": "package:ponto/app/model/presence_entry.dart"
+    },
+    {
+      "fileOffset": 2531785,
+      "path": "package:ponto/app/modules/job_general_first_day_of_month/job_general_first_day_of_month_page.dart"
+    },
+    {
+      "fileOffset": 2531905,
+      "path": "package:ponto/app/modules/remove_ads/remove_ads_controller.dart"
+    },
+    {
+      "fileOffset": 2540175,
+      "path": "package:ponto/app/modules/settings_account/settings_account_page.dart"
+    },
+    {
+      "fileOffset": 2545082,
+      "path": "package:ponto/app/modules/company_welcome/company_welcome_page.dart"
+    },
+    {
+      "fileOffset": 2547525,
+      "path": "package:ponto/app/modules/initial_wizard/first_job_controller.dart"
+    },
+    {
+      "fileOffset": 2548837,
+      "path": "package:ponto/app/extensions/query.dart"
+    },
+    {
+      "fileOffset": 2551265,
+      "path": "package:ponto/app/shared/kiosk/kiosk_pin_lockout.dart"
+    },
+    {
+      "fileOffset": 2551917,
+      "path": "package:ponto/app/shared/widgets/record_holiday_widget.dart"
+    },
+    {
+      "fileOffset": 2556872,
+      "path": "package:ponto/app/shared/widgets/presence_status_line.dart"
+    },
+    {
+      "fileOffset": 2561304,
+      "path": "package:ponto/app/model/inconsistency.dart"
+    },
+    {
+      "fileOffset": 2563890,
+      "path": "package:ponto/app/modules/chart/chart_first_clock_in_widget.dart"
+    },
+    {
+      "fileOffset": 2566631,
+      "path": "package:ponto/app/modules/job_settings_wizard/job_settings_wizard_controller.dart"
+    },
+    {
+      "fileOffset": 2573155,
+      "path": "package:ponto/app/modules/dev_companies/dev_owner_companies.dart"
+    },
+    {
+      "fileOffset": 2574996,
+      "path": "package:ponto/app/shared/widgets/select_all_action.dart"
+    },
+    {
+      "fileOffset": 2578248,
+      "path": "package:ponto/app/modules/job_general/hourly_rate_dialog.dart"
+    },
+    {
+      "fileOffset": 2588948,
+      "path": "package:ponto/app/modules/job/job_controller.dart"
+    },
+    {
+      "fileOffset": 2591046,
+      "path": "package:ponto/app/shared/services/kiosk_service.dart"
+    },
+    {
+      "fileOffset": 2592872,
+      "path": "package:ponto/app/modules/job_overtime_rule/job_overtime_rule_controller.dart"
+    },
+    {
+      "fileOffset": 2594599,
+      "path": "package:ponto/app/modules/job_settings_wizard/choose_shift_mode_page.dart"
+    },
+    {
+      "fileOffset": 2598512,
+      "path": "package:ponto/app/shared/services/company_access_service.dart"
+    },
+    {
+      "fileOffset": 2599729,
+      "path": "package:ponto/app/extensions/collection_reference.dart"
+    },
+    {
+      "fileOffset": 2601668,
+      "path": "package:ponto/app/modules/dev_grants/dev_grant_edit_dialog.dart"
+    },
+    {
+      "fileOffset": 2614151,
+      "path": "package:ponto/app/model/job_photos.dart"
+    },
+    {
+      "fileOffset": 2616990,
+      "path": "package:ponto/app/modules/month/month_controller.dart"
+    },
+    {
+      "fileOffset": 2620136,
+      "path": "package:ponto/app/shared/services/daily_log_service.dart"
+    },
+    {
+      "fileOffset": 2621235,
+      "path": "package:ponto/app/modules/sign_up/sign_up_controller.dart"
+    },
+    {
+      "fileOffset": 2622599,
+      "path": "package:ponto/app/extensions/object.dart"
+    },
+    {
+      "fileOffset": 2623336,
+      "path": "package:ponto/app/shared/services/month_service.dart"
+    },
+    {
+      "fileOffset": 2627008,
+      "path": "package:ponto/app/modules/photos/photos_controller.dart"
+    },
+    {
+      "fileOffset": 2633620,
+      "path": "package:ponto/app/modules/job_tags_list/job_tags_list_page.dart"
+    },
+    {
+      "fileOffset": 2636550,
+      "path": "package:ponto/app/modules/specials/specials_controller.dart"
+    },
+    {
+      "fileOffset": 2638137,
+      "path": "package:ponto/app/model/record_workload.dart"
+    },
+    {
+      "fileOffset": 2638978,
+      "path": "package:ponto/app/modules/job_photo_resolution/job_photo_resolution_controller.dart"
+    },
+    {
+      "fileOffset": 2642831,
+      "path": "package:ponto/app/shared/widgets/text_checkbox.dart"
+    },
+    {
+      "fileOffset": 2644482,
+      "path": "package:ponto/app/modules/login_email/login_email_binding.dart"
+    },
+    {
+      "fileOffset": 2646506,
+      "path": "package:ponto/app/modules/job_general/clock_sync_duration_dialog.dart"
+    },
+    {
+      "fileOffset": 2646985,
+      "path": "package:ponto/app/utils/time_picker_builder.dart"
+    },
+    {
+      "fileOffset": 2648858,
+      "path": "package:ponto/app/modules/dev_companies/dev_company_detail_page.dart"
+    },
+    {
+      "fileOffset": 2650024,
+      "path": "package:ponto/app/model/job_break_rule.dart"
+    },
+    {
+      "fileOffset": 2655229,
+      "path": "package:ponto/app/modules/home/home_controller.dart"
+    },
+    {
+      "fileOffset": 2655551,
+      "path": "package:ponto/app/utils/employee_filter.dart"
+    },
+    {
+      "fileOffset": 2658981,
+      "path": "package:ponto/app/app_widget.dart"
+    },
+    {
+      "fileOffset": 2660490,
+      "path": "package:ponto/app/modules/settings_general_home_screen/settings_general_home_screen_page.dart"
+    },
+    {
+      "fileOffset": 2662306,
+      "path": "package:ponto/app/model/job_notifications.dart"
+    }
+  ]
+}

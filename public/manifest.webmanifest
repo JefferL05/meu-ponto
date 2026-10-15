@@ -1,0 +1,10 @@
+{
+  "name": "Meu Ponto", "short_name": "Meu Ponto", "lang": "pt-BR",
+  "start_url": ".", "display": "standalone",
+  "theme_color": "#E0A9B5", "background_color": "#FBF4F6",
+  "icons": [
+    { "src": "icon192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon512_rounded.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon512_maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

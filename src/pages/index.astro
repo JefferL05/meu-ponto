@@ -1,0 +1,59 @@
+---
+import '../styles/global.css';
+import '../styles/evolucao.css';
+const base=import.meta.env.BASE_URL;
+const dias=['Dom','Seg','Ter','Qua','Qui','Sex','Sáb'];
+---
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+  <meta name="theme-color" content="#8B4DE8"/><meta name="description" content="Sua jornada, seus horários e seu banco de horas. Controle pessoal com funcionamento offline."/>
+  <title>Meu Ponto · Minha jornada</title>
+  <link rel="manifest" href={`${base}manifest.webmanifest`}/><link rel="icon" href={`${base}icon512_rounded.png`}/>
+  <link rel="apple-touch-icon" href={`${base}apple-touch-icon.png`}/>
+  <meta name="mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="default"/><meta name="apple-mobile-web-app-title" content="Meu Ponto"/>
+  <script is:inline>try { document.documentElement.dataset.theme=localStorage.getItem('meuponto:tema')??(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'); } catch {}</script>
+</head>
+<body><main>
+  <header><div><p class="eyebrow">SEU TEMPO, BEM CUIDADO</p><h1>Meu Ponto <span class="badge">3.0</span></h1></div><button id="tema" aria-label="Alternar tema">◐</button></header>
+  <div class="linha contexto"><label class="emprego-label">Emprego<select id="emprego" aria-label="Emprego ativo"></select></label><span id="conexao" class="muted"></span></div>
+  <p id="mensagem" class="mensagem" role="status" hidden></p>
+  <nav class="abas" aria-label="Seções">
+    <button data-tab="hoje" aria-current="page">Hoje</button><button data-tab="historico">Histórico</button><button data-tab="relatorios">Relatórios</button><button data-tab="ajustes">Ajustes</button>
+  </nav>
+  <section id="painel-hoje" class="painel">
+    <div class="card hero"><p class="eyebrow" id="data-jornada"></p><p class="big" id="tempo-dia">0h00</p><p id="etapa-dia" class="muted"></p><progress id="progresso-dia" value="0" max="100" aria-label="Progresso da jornada"></progress><p id="previsao-dia" class="muted"></p><div class="acoes"><button class="primario" id="bater">Iniciar jornada</button><button id="finalizar">Finalizar</button></div><p class="muted" id="aviso-dia"></p></div>
+    <div class="stats" id="resumo-hoje"></div>
+    <section class="card"><div class="linha"><h2>Minha jornada</h2><button data-abrir-registro="">+ Período</button></div><div id="registros-hoje"></div><label class="destino-label">Destino das horas extras<select id="destino"><option value="banco">Banco de horas (1:1)</option><option value="pagamento">Pagamento estimado</option></select></label></section>
+    <section class="card"><h2>Esta semana</h2><div class="grafico" id="grafico-semana" role="img" aria-label="Horas trabalhadas por dia da semana"></div><p class="muted" id="resumo-semana"></p></section>
+  </section>
+  <section id="painel-historico" class="painel" hidden>
+    <section class="card"><div class="linha"><h2>Histórico</h2><button data-abrir-registro="">+ Período</button></div><div class="form"><label>Mês<input id="hist-mes" type="month"/></label><label>Buscar observação ou marcador<input id="hist-busca" type="search" placeholder="Ex.: projeto, cliente…"/></label></div><div id="historico"></div></section>
+    <section class="card"><h2>Férias, folgas e faltas</h2><form id="especial-form" class="form"><label>De<input name="inicio" type="date" required/></label><label>Até<input name="fim" type="date" required/></label><label>Ocorrência<select name="tipo"><option value="ferias">Férias</option><option value="folga">Folga</option><option value="feriado">Feriado</option><option value="abono">Falta abonada</option><option value="falta">Falta sem abono</option><option value="remover">Remover ocorrência</option></select></label><label>Observação<input name="obs" maxlength="1000"/></label><p class="muted span-all">Férias, folga, feriado e abono zeram a carga prevista. Falta sem abono mantém o débito. Ocorrências não apagam pontos.</p><button class="primario">Aplicar ao período</button></form></section>
+    <details class="card"><summary>Lixeira de períodos</summary><div id="lixeira"></div></details>
+  </section>
+  <section id="painel-relatorios" class="painel" hidden>
+    <section class="card no-print"><h2>Relatórios e banco de horas</h2><form id="relatorio-form" class="form"><label>De<input type="date" id="rel-inicio" required/></label><label>Até<input type="date" id="rel-fim" required/></label><button class="primario">Atualizar período</button></form><div class="acoes"><button id="export-csv">Exportar CSV</button><button id="imprimir">Imprimir / salvar PDF</button></div><p class="muted">CSV abre em planilhas. PDF utiliza a impressão do navegador.</p></section>
+    <section class="card" id="relatorio-impressao"><h2 id="rel-titulo">Resumo do período</h2><p class="muted" id="rel-legenda"></p><div class="stats" id="rel-totais"></div><div class="tabela-scroll"><table><thead><tr><th>Dia</th><th>Trabalhado</th><th>Previsto</th><th>Saldo</th><th>Banco</th></tr></thead><tbody id="rel-linhas"></tbody></table></div><h3>Por marcador</h3><div id="rel-tags"></div><p class="assinatura">Assinatura: __________________________________</p></section>
+    <section class="card no-print"><h2>Ajuste do banco</h2><form id="banco-form" class="form"><label>Data<input name="data" type="date" required/></label><label>Minutos (+ crédito / − débito)<input name="min" type="number" min="-525600" max="525600" step="1" required/></label><label class="span-all">Motivo<input name="obs" maxlength="1000" required/></label><button class="primario">Registrar ajuste</button></form><div id="ajustes-banco"></div></section>
+  </section>
+  <section id="painel-ajustes" class="painel" hidden>
+    <section class="card"><h2>Meus empregos</h2><form id="emprego-form" class="form"><label>Nome<input name="nome" maxlength="100" required/></label><label>Início do controle<input name="inicio" type="date" required/></label><button class="primario">Adicionar emprego</button></form><p class="muted">Cada emprego tem seus próprios registros, configurações e banco. Dias anteriores ao início não geram débitos.</p></section>
+    <section class="card"><h2>Jornada e regras</h2><label>Carregar configuração vigente em<input id="cfg-consulta" type="date"/></label><p class="muted" id="cfg-periodos"></p><form id="config-form" class="form">
+      <label class="span-all">Aplicar a partir de<input name="inicio" type="date" required/></label>
+      <label>Escala<select name="escala"><option value="semanal">Dias fixos da semana</option><option value="ciclo">Ciclo de trabalho e folga</option></select></label><label>Modelo de ciclo<select id="ciclo-modelo"><option value="">Personalizado</option><option value="1,1,12">12 × 36</option><option value="1,2,24">24 × 48</option><option value="1,3,24">24 × 72</option><option value="5,2,8">5 × 2</option><option value="6,1,8">6 × 1</option><option value="4,2,8">4 × 2</option></select></label>
+      <fieldset class="span-all"><legend>Carga por dia da semana (horas)</legend><div class="semana-inputs">{dias.map((d,i)=><label>{d}<input type="number" name={`dia${i}`} min="0" max="24" step="0.25" required/></label>)}</div></fieldset>
+      <label>Primeiro dia de trabalho do ciclo<input name="cicloInicio" type="date" required/></label><label>Horas por dia no ciclo<input name="horasDia" type="number" min="0" max="24" step="0.25" required/></label><label>Dias trabalhados no ciclo<input name="cicloTrabalho" type="number" min="1" max="365" required/></label><label>Dias de folga no ciclo<input name="cicloFolga" type="number" min="0" max="365" required/></label>
+      <h3 class="span-all">Tolerância e arredondamento</h3><label>Tolerância positiva (min)<input name="toleranciaMais" type="number" min="0" max="120" required/></label><label>Tolerância negativa (min)<input name="toleranciaMenos" type="number" min="0" max="120" required/></label><label>Arredondar a cada (min; 0 desliga)<input name="arredondamento" type="number" min="0" max="60" required/></label><label>Sentido<select name="sentido"><option value="proximo">Mais próximo</option><option value="baixo">Para baixo</option><option value="cima">Para cima</option></select></label>
+      <h3 class="span-all">Valores estimados e adicional noturno</h3><label>Valor da hora<input name="valorHora" type="number" min="0" max="1000000" step="0.01" required/></label><label>Moeda<select name="moedaHora"><option value="BRL">Real (BRL)</option><option value="PYG">Guarani (PYG)</option></select></label><label>Adicional de extra (%)<input name="adicional" type="number" min="0" max="1000" required/></label><label>Adicional noturno (%)<input name="noturno" type="number" min="0" max="1000" required/></label><label>Período noturno: início<input name="noiteInicio" type="time" required/></label><label>Período noturno: fim<input name="noiteFim" type="time" required/></label>
+      <h3 class="span-all">Avisos de descanso</h3><label>Intervalo mínimo (min)<input name="intervaloMin" type="number" min="0" max="1440" required/></label><label>Entre jornadas (min)<input name="descansoMin" type="number" min="0" max="2880" required/></label>
+      <p class="muted span-all">As regras ficam versionadas pela data de início. O cálculo preserva os horários: soma os períodos → arredonda o total → aplica a tolerância no saldo. Banco 1:1; adicional noturno simples, sem hora ficta ou cálculo de folha CLT.</p><button class="primario">Salvar configuração com vigência</button>
+    </form></section>
+    <section class="card"><h2>Backup dos dados</h2><p class="muted">O JSON inclui todos os empregos, regras, registros e lixeira deste perfil. A restauração substitui o perfil atual.</p><div class="acoes"><button id="backup">Baixar backup JSON</button><label class="botao-arquivo">Restaurar JSON<input id="restaurar" type="file" accept=".json,application/json"/></label></div></section>
+    <section class="card" id="nuvem"><h2>Nuvem</h2><p class="muted" id="sync-status">Configure o Supabase no build para ativar. Os dados funcionam localmente.</p><div id="sync-controles" hidden><p id="sync-conta"></p><form id="login-form" class="form"><label>E-mail<input name="email" type="email" required/></label><button>Enviar link de acesso</button></form><div class="acoes"><button id="sync-agora">Sincronizar</button><button id="sync-sair">Sair</button><button id="sync-importar">Importar perfil local para esta conta</button></div><div id="sync-conflito" hidden><p>As cópias divergiram. Faça um backup JSON para preservar suas alterações antes de escolher.</p><button id="usar-local">Usar este aparelho</button><button id="usar-nuvem">Usar nuvem</button></div></div></section>
+  </section>
+  <footer class="muted">Meu Ponto · Controle pessoal de jornada <span id="versao-offline"></span></footer>
+  <dialog id="registro-dialog"><form id="registro-form" class="form"><h2 class="span-all" id="registro-titulo">Adicionar período</h2><input name="id" type="hidden"/><label class="span-all">Data da entrada<input name="data" type="date" required/></label><label>Entrada<input name="entrada" type="time" required/></label><label>Saída (vazio = aberto)<input name="saida" type="time"/></label><label class="check span-all"><input name="diaSeguinte" type="checkbox"/> Saída no dia seguinte</label><label>Marcador<input name="tag" maxlength="100" placeholder="Projeto, cliente…"/></label><label>Observação<input name="obs" maxlength="1000"/></label><p id="registro-erro" class="span-all" role="alert"></p><div class="acoes span-all"><button type="button" id="cancelar-registro">Cancelar</button><button class="primario">Salvar período</button></div></form></dialog>
+  <noscript>Ative o JavaScript para usar o controle de jornada.</noscript>
+</main><script>import '../scripts/pessoal.js';</script></body></html>

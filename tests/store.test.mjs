@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+const dados=new Map();let falhar=false;
+globalThis.localStorage={getItem:k=>dados.get(k)??null,setItem:(k,v)=>{if(falhar)throw new Error('Quota excedida');dados.set(k,v);}};
+globalThis.dispatchEvent=()=>{};
+const {estado,emprego,transacao,trocarConta,restaurarBackup,contaAtual}=await import('../src/lib/store.js');
+test('troca de contas isola dados e sair recupera perfil local',()=>{transacao(()=>emprego().nome='Local');trocarConta('usuario-a');assert.equal(emprego().nome,'Meu trabalho');transacao(()=>emprego().nome='Conta A');trocarConta('usuario-b');assert.equal(emprego().nome,'Meu trabalho');transacao(()=>emprego().nome='Conta B');trocarConta('usuario-a');assert.equal(emprego().nome,'Conta A');trocarConta(null);assert.equal(emprego().nome,'Local');assert.equal(contaAtual(),'local');});
+test('falha de persistência reverte mutação em memória',()=>{const antes=JSON.stringify(estado);falhar=true;assert.throws(()=>transacao(()=>emprego().nome='Não salvo'),/Quota/);falhar=false;assert.equal(JSON.stringify(estado),antes);});
+test('backup inválido não substitui dados existentes',()=>{const antes=JSON.stringify(estado);assert.throws(()=>restaurarBackup({schemaVersion:3,empregos:[]}));assert.equal(JSON.stringify(estado),antes);});
+test('backup rejeita chaves de protótipo e preserva a cópia anterior ao restaurar',()=>{const backup=structuredClone(estado);backup.empregos[0].nome='Restaurado';restaurarBackup(backup);assert.ok(dados.get('meuponto:v3:local:antes-restaurar'));assert.equal(emprego().nome,'Restaurado');const ruim=JSON.parse(JSON.stringify(backup).replace('"schemaVersion":3','"__proto__":{"x":true},"schemaVersion":3'));assert.throws(()=>restaurarBackup(ruim),/reservada/);});
